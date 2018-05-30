@@ -1,2 +1,6 @@
 body {
   background: #eee; }
+
+.active {
+  background-color: blue;
+  color: white; }

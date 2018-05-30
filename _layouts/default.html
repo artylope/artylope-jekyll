@@ -1,16 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/index.css">
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><a href="{{site.baseurl}}/index.html">Home</a></li>
-        <li><a href="{{site.baseurl}}/blog.html">Blog</a></li>
-      </ul>
-    </nav>
+    {% include nav.html %}
     {{content}}
   </body>
-  <footer></footer>
+    {% include footer.html %}
 </html>

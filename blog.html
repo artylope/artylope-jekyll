@@ -4,3 +4,13 @@ layout: default
 
 <h1>This is a blog</h1>
 <p>Title.</p>
+
+
+<ul>
+  {% for blog in site.posts limit: 2å %}
+  <li>
+    <a href="{{site.baseurl}}{{blog.url}}">{{blog.title}}</a>
+    <p>{{blog.meta}}</p>
+  </li>
+  {% endfor %}
+</ul>
