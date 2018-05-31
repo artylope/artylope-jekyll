@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<div>
+  {% for work in site.categories.portfolio limit: %}
+    <a href="{{site.baseurl}}{{work.url}}">{{work.title}}</a>
+    <p>{{work.title}}</p>
+    <p>{{work.content}}</p>
+  {% endfor %}
+</div>
