@@ -1,2 +1,7 @@
-baseurl: 
+baseurl:
 exclude: ['README.md']
+
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/

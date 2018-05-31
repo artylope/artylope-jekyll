@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div>
-  {% for work in site.categories.portfolio limit: %}
+  {% for work in site.portfolio limit: %}
     <a href="{{site.baseurl}}{{work.url}}">{{work.title}}</a>
     <p>{{work.title}}</p>
     <p>{{work.content}}</p>
