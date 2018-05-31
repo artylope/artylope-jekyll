@@ -7,7 +7,7 @@ layout: default
 
 
 <ul>
-  {% for blog in site.posts limit: 2å %}
+  {% for blog in site.categories.blog limit: %}
   <li>
     <a href="{{site.baseurl}}{{blog.url}}">{{blog.title}}</a>
     <p>{{blog.meta}}</p>
