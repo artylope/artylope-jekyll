@@ -2,10 +2,8 @@
 layout: default
 ---
 
-<h1>This is a blog</h1>
-<p>Title.</p>
-
-
+<section id="sidebar">
+<h2>Recent Posts</h2>
 <ul>
   {% for blog in site.categories.blog limit: %}
   <li>
@@ -14,3 +12,14 @@ layout: default
   </li>
   {% endfor %}
 </ul>
+</section>
+
+<section id="blog">
+<div class="blog-roll">
+  {% for blog in site.categories.blog limit: %}
+  <h2>{{blog.title}}</h2>
+  <p>{{blog.content}}</p>
+  <p>{{blog.tags}}</p>
+  {% endfor %}
+</div>
+</section>
