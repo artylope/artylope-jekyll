@@ -2,10 +2,14 @@
 layout: default
 ---
 
-<div>
-  {% for work in site.portfolio limit: %}
-    <a href="{{site.baseurl}}{{work.url}}">{{work.title}}</a>
-    <p>{{work.title}}</p>
-    <p>{{work.content}}</p>
-  {% endfor %}
+<div class="container">
+  <div class="row">
+    {% for work in site.portfolio limit:4 %}
+      <div class="col-3">
+          <a href="{{site.baseurl}}{{work.url}}">{{work.title}}</a>
+          <p>{{work.title}}</p>
+          <p>{{work.content}}</p>
+      </div>
+      {% endfor %}
+    </div>
 </div>

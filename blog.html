@@ -2,24 +2,29 @@
 layout: default
 ---
 
-<section id="sidebar">
-<h2>Recent Posts</h2>
-<ul>
-  {% for blog in site.posts limit: %}
-  <li>
-    <a href="{{site.baseurl}}{{blog.url}}">{{blog.title}}</a>
-    <p>{{blog.meta}}</p>
-  </li>
-  {% endfor %}
-</ul>
-</section>
-
-<section id="blog">
-<div class="blog-roll">
-  {% for blog in site.categories.blog limit: %}
-  <h2>{{blog.title}}</h2>
-  <p>{{blog.content}}</p>
-  <p>{{blog.tags}}</p>
-  {% endfor %}
+<div class="container">
+  <div class="row">
+    <div id="main" class="col-9">
+      <div class="blog-section">
+        {% for blog in site.posts limit:5 %}
+        <div class="blog-piece">
+          <h2>{{blog.title}}</h2>
+          <p>{{blog.content}}</p>
+          <p>{{blog.tags}}</p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div id="sidebar" class="col-3">
+      <h4>Recent Posts</h4>
+      <ul>
+        {% for blog in site.posts limit:5 %}
+        <li>
+          <a href="{{site.baseurl}}{{blog.url}}">{{blog.title}}</a>
+          <p>{{blog.meta}}</p>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
 </div>
-</section>

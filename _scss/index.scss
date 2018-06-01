@@ -1,14 +1,16 @@
-body{
-  background: #eee;
-}
-
-.active{
-  background-color: blue;
-  color: white;
-}
-
-.blog-roll{
-  margin: 100px 0px;
-  border-bottom: 1px solid red;
+footer{
   background: white;
+}
+
+body {
+  padding: 100px 0 0 0;
+  background-color: #eee;
+}
+
+footer{
+  background-color: white;
+}
+
+.blog-section{
+  display: block;
 }

@@ -1,8 +1,21 @@
-<nav>
-  <ul>
-    <li><a href="{{site.baseurl}}/" class="{% if page.url == '/' %}active{% endif %}">Home</a></li>
-    <li><a href="{{site.baseurl}}/blog.html"  class="{% if page.url contains 'blog' %}active{% endif %}">Blog</a></li>
-    <li><a href="{{site.baseurl}}/portfolio/"  class="{% if page.url contains 'portfolio' %}active{% endif %}">Portfolio</a></li>
-    <li><a href="{{site.baseurl}}/about.html" class="{% if page.url == '/about.html' %}active{% endif %}">About</a></li>
-  </ul>
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top mx-auto">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item mx-auto {% if page.url == '/' %}active{% endif %}">
+        <a class="nav-link" href="{{site.baseurl}}/">Home</a>
+      </li>
+      <li class="nav-item mx-auto {% if page.url == '/blog.html' %}active{% endif %}">
+        <a class="nav-link" href="{{site.baseurl}}/blog.html">Blog</a>
+      </li>
+      <li class="nav-item mx-auto {% if page.url contains 'portfolio' %}active{% endif %}">
+        <a class="nav-link " href="{{site.baseurl}}/portfolio/">Portfolio</a>
+      </li>
+      <li class="nav-item mx-auto {% if page.url == '/about.html' %}active{% endif %}">
+        <a class="nav-link" href="{{site.baseurl}}/about.html">About</a>
+      </li>
+    </ul>
+  </div>
 </nav>
