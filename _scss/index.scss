@@ -1,14 +1,34 @@
-footer{
-  background: white;
+$item-padding: 10px;
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Muli:300');
+
+body{
+  font-family: 'Muli', sans-serif;
 }
 
-body {
-  padding: 100px 0 0 0;
-  background-color: #eee;
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+}
+
+section{
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 footer{
+  padding-top: $item-padding;
   background-color: white;
+}
+
+.navbar{
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+#sidebar{
+  ul{
+    list-style-type: none;
+    padding: 0;
+  }
 }
 
 .blog-section{
