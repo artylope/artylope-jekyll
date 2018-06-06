@@ -16,9 +16,19 @@ footer {
 .navbar {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2); }
 
+.embed {
+  border: 1px solid #d1d5da; }
+
 #sidebar ul {
   list-style-type: none;
   padding: 0; }
 
-.blog-section {
-  display: block; }
+#sidebar div {
+  margin-bottom: 50px; }
+
+#sidebar #search-box input {
+  padding: 5px 10px; }
+
+#sidebar #archives h6 {
+  padding-top: 20px;
+  padding-bottom: 0px; }

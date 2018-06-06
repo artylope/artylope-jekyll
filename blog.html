@@ -5,18 +5,37 @@ layout: default
   <div class="container">
     <div class="row">
       <div id="sidebar" class="col-3">
-        <h4>Recent Posts</h4>
-        <ul>
-          {% for blog in site.posts limit:5 %}
-          <li>
-            <a href="{{site.baseurl}}{{blog.url}}">{{blog.title}}</a>
-            <p>{{blog.meta}}</p>
-          </li>
-          {% endfor %}
-        </ul>
+        <div id="search-box">
+          <form action="{{ site.baseurl }}/search.html" method="get">
+            <input type="text" id="search-box" name="query">
+            <input type="submit" value="search">
+          </form>
+        </div>
+        <div id="recent-posts">
+          <h4>Recent Posts</h4>
+          <ul>
+            {% for blog in site.posts limit:5 %}
+            <li>
+              <a href="{{site.baseurl}}{{blog.url}}">{{blog.title}}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div id="archives">
+          <h4>Archives</h4>
+          <div class="month-box">
+            <ul>
+            {% for blog in site.posts %} {% unless blog.next %}
+            <h6>{{ blog.date | date: '%b %Y' }}</h6> {% else %} {% capture year %}{{ blog.date | date: '%Y %b' }}{% endcapture %} {% capture nyear %}{{ blog.next.date | date: '%Y %b' }}{% endcapture %} {% if year != nyear %}
+            <h6>{{ blog.date | date: '%b %Y ' }}</h6> {% endif %} {% endunless %}
+            <li><a href="{{site.baseurl}}{{blog.url}}">{{ blog.title }}</a></li>
+            {% endfor %}
+            </ul>
+          </div>
+        </div>
       </div>
       <div id="main" class="col-9">
-        <div class="blog-section">
+        <div class="all-blogs">
           {% for blog in site.posts limit:5 %}
           <div class="blog-piece">
             <h2>{{blog.title}}</h2>

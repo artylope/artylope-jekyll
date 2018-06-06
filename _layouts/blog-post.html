@@ -1,27 +1,28 @@
 ---
 layout: blog
 ---
+<section id="blog-post">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2>{{page.title}}</h2>
+        <p>{{page.meta}}</p>
+        <p>{{page.tags}}</p>
 
-<div class="container">
-  <div class="row">
-    <div class="col-12">
-      <h2>{{page.title}}</h2>
-      <p>{{page.meta}}</p>
-      <p>{{page.tags}}</p>
-
-      <p>{{content}}</p>
+        <p>{{content}}</p>
+      </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="col-12">
-      <div class="PageNavigation mx-auto">
-        {% if page.previous.url %}
-          <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
-        {% endif %}
-        {% if page.next.url %}
-          <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
-        {% endif %}
+    <div class="row">
+      <div class="col-12">
+        <div class="PageNavigation mx-auto">
+          {% if page.previous.url %}
+            <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+          {% endif %}
+          {% if page.next.url %}
+            <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+          {% endif %}
+        </div>
       </div>
     </div>
   </div>
-</div>
+</section>
