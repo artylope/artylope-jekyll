@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="layout" content="blog-post"/>
+	<title>Serving http-server to overcome the cross origin request error</title>
+	<meta name="author" content="angyixin description:"/>
+	<meta name="created" content="2016/12/28 04:15:38"/>
+	<meta name="created_gmt" content="2016/12/28 04:15:38"/>
+	<meta name="post_name" content="should-i-code"/>
+	<meta name="status" content="private"/>
+	<meta name="post_type" content="post source:"/>
+</head>
+<body>
+
+<h1 id="servinghttp-servertoovercomethecrossoriginrequesterror">Serving http-server to overcome the cross origin request error</h1>
+
+<p>Doing HTTP request from a page served as is will sometimes result in this error in the console.</p>
+
+<blockquote>
+<p>Cross origin requests are only supported for protocol schemes: http, data, chrome, chrome-extension, https, chrome-extension-resource.</p>
+</blockquote>
+
+<p>To overcome this, you can set up a local host or serve to gh-pages or any web server. First install http-server using npm into the folder</p>
+
+<ol>
+<li><p> In Terminal, cd into the project folder I want to serve</p>
+
+<pre><code>```
+ $cd folder/folder/folder
+```
+</code></pre></li>
+<li><p> In that folder, type this to install http-server</p>
+
+<pre><code>```
+npm install http-server
+```
+</code></pre></li>
+<li><p> Then serve</p>
+
+<pre><code>```
+$ http-server -c-1
+```
+</code></pre>
+
+<p>// This means not caching the local server</p></li>
+</ol>
+
+<p>or http-server the file you want to set up localhost for.</p>
+
+<pre><code>$ http-server folder/folder/
+</code></pre>
+
+</body>
+</html>
+
