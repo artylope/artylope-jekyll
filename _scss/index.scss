@@ -3,7 +3,9 @@ $spacing-medium: 50px;
 $spacing-large: 100px;
 $line-color:  #d1d5da;
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Muli:300');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Muli:300');
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono');
 
 // general styles
 
@@ -23,6 +25,10 @@ section{
 footer{
   padding-top: $spacing-small;
   background-color: white;
+}
+
+code{
+  font-family: 'Fira Mono', monospace;
 }
 
 //common styles
