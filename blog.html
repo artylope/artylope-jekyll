@@ -6,7 +6,7 @@ layout: default
     <div class="row">
       <div id="sidebar" class="col-3">
         <div id="search-box">
-          <form action="{{ site.baseurl }}/search.html" method="get">
+          <form action="#" method="get">
             <input type="text" id="search-box" name="query">
             <input type="submit" value="search">
           </form>
@@ -35,6 +35,7 @@ layout: default
         </div>
       </div>
       <div id="main" class="col-9">
+        <ul id="search-results"></ul>
         <div class="all-blogs">
           {% for blog in site.posts limit:5 %}
           <div class="blog-piece">
@@ -48,3 +49,20 @@ layout: default
     </div>
   </div>
 </section>
+
+<script>
+  window.store = {
+    {% for post in site.posts %}
+      "{{ post.url | slugify }}": {
+        "title": "{{ post.title | xml_escape }}",
+        "author": "{{ post.author | xml_escape }}",
+        "category": "{{ post.category | xml_escape }}",
+        "content": {{ post.content | strip_html | strip_newlines | jsonify }},
+        "url": "{{ post.url | xml_escape }}"
+      }
+      {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  };
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.2.1/lunr.min.js"></script>
+<script src="{{site.baseurl}}/js/search.js"></script>
