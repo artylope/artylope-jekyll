@@ -1,0 +1,14 @@
+{
+  "name": "artylope-jekyll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "scss": "node-sass --watch _scss -o css"
+  },
+  "author": "artylope",
+  "license": "",
+  "dependencies": {
+    "node-sass": "^4.9.0"
+  }
+}

@@ -4,7 +4,6 @@
 
     if (results.length) { // Are there any results?
       var appendString = '';
-
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
         var item = store[results[i].ref];
         appendString += '<li><a href="' + item.url + '"><h3>' + item.title + '</h3></a>';
@@ -56,7 +55,7 @@
             }
         });
       var results = idx.search(searchTerm); // Get lunr to perform a search
-          displaySearchResults(results, window.store); // We'll write this in the next section    
+          displaySearchResults(results, window.store); // We'll write this in the next section
 
   }
 })();
