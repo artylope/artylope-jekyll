@@ -1,0 +1,22 @@
+@import 'variables';
+
+body{
+  font-family: $body-font-family;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 1.2rem;
+  font-family: $headings-font-family;
+  font-weight: $headings-font-weight;
+}
+
+h1 { font-size: 3.0rem; letter-spacing: -.1rem;}
+h2 { font-size: 2.5rem; letter-spacing: -.1rem; }
+h3 { font-size: 2.0rem; letter-spacing: -.1rem; }
+h4 { font-size: 1.8rem; letter-spacing: -.08rem; }
+h5 { font-size: 1.5rem; letter-spacing: -.05rem; }
+h6 { font-size: 1.2rem; letter-spacing: 0; }
+
+p {
+  margin-top: 0; }

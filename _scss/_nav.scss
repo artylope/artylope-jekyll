@@ -1,0 +1,78 @@
+@import 'variables';
+
+
+nav {
+  background-color: $nav-background;
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+  padding: 1em;
+
+  ul {
+    list-style-type: none;
+    display: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    li {
+      text-align: center;
+      padding: 1em;
+      a, {
+        text-decoration: none;
+        color: $link-color;
+        &:hover {
+          color: $hover-color;
+        }
+      }
+      &.active{
+        a{
+          color: $hover-color;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 48em) {
+  nav {
+    padding: 0em;
+    ul {
+      display: flex;
+      flex-direction: row;
+      li {
+        padding: 1.5em;
+      }
+    }
+  }
+
+  //checkbox toggle will hide when breakpoint is beyond mobile
+  #menu-toggle,
+  #mobile-menu-label {
+    display: none;
+  }
+
+  #mobile-menu-label {
+    padding: 1.5em 1em;
+  }
+}
+
+//hide checkbox input element
+#menu-toggle {
+  opacity: 0;
+}
+
+// Show menu when #menu-toggle checkbox is checked, use ~
+#menu-toggle:checked ~ #menu {
+  display: flex;
+}
+
+#menu-icon {
+  position: relative;
+  left: -1.2em;
+  svg {
+    path {
+      fill: $link-color;
+    }
+  }
+}

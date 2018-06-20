@@ -1,21 +1,16 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top mx-auto">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav mx-auto">
-      <li class="nav-item mx-auto {% if page.url == '/' %}active{% endif %}">
-        <a class="nav-link" href="{{site.baseurl}}/">Home</a>
-      </li>
-      <li class="nav-item mx-auto {% if page.url == '/blog.html' %}active{% endif %}">
-        <a class="nav-link" href="{{site.baseurl}}/blog.html">Blog</a>
-      </li>
-      <li class="nav-item mx-auto {% if page.url contains 'portfolio' %}active{% endif %}">
-        <a class="nav-link " href="{{site.baseurl}}/portfolio/">Portfolio</a>
-      </li>
-      <li class="nav-item mx-auto {% if page.url == '/about.html' %}active{% endif %}">
-        <a class="nav-link" href="{{site.baseurl}}/about.html">About</a>
-      </li>
-    </ul>
-  </div>
+<nav>
+  <input id="menu-toggle" type="checkbox" onclick="toggleMenu() " />
+  <label id="mobile-menu-label" for="menu-toggle">
+    <span id="menu-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/></svg>
+    </span>
+  </label>
+
+  <ul id="menu">
+    <li class="{% if page.url == '/' %}active{% endif %}"><a href="{{site.baseurl}}">Home</a></li>
+    <li class="{% if page.url == '/blog.html' %}active{% endif %}"><a href="{{site.baseurl}}/blog.html">Blog</a></li>
+    <li class="{% if page.url contains 'portfolio' %}active{% endif %}"><a href="{{site.baseurl}}/portfolio">Portfolio</a></li>
+    <li class="{% if page.url == '/about.html' %}active{% endif %}"><a href="{{site.baseurl}}/about.html">About</a></li>
+  </ul>
+
 </nav>

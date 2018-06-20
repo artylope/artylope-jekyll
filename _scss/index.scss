@@ -1,68 +1,7 @@
-$spacing-small: 10px;
-$spacing-medium: 50px;
-$spacing-large: 100px;
-$line-color:  #d1d5da;
-
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import url('https://fonts.googleapis.com/css?family=Muli:300');
-@import url('https://fonts.googleapis.com/css?family=Fira+Mono');
-
-// general styles
+@import 'base';
+@import 'typography';
+@import 'nav';
 
 body{
-  font-family: 'Muli', sans-serif;
-}
-
-h1,h2,h3,h4,h5,h6{
-  font-family: 'Montserrat', sans-serif;
-}
-
-section{
-  padding-top: $spacing-large;
-  padding-bottom: $spacing-medium;
-}
-
-footer{
-  padding-top: $spacing-small;
-  background-color: white;
-}
-
-code{
-  font-family: 'Fira Mono', monospace;
-}
-
-//common styles
-
-.navbar{
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
-}
-
-.embed {
-  border: 1px solid $line-color;
-}
-
-
-// blog page styles
-
-#sidebar{
-  ul{
-    list-style-type: none;
-    padding: 0;
-  }
-  div{
-    margin-bottom: $spacing-medium;
-  }
-
-  #search-box{
-    input{
-      padding: $spacing-small/2 $spacing-small;
-    }
-  }
-
-  #archives{
-    h6{
-      padding-top: $spacing-small*2;
-      padding-bottom: 0px;
-    }
-  }
+  background: #eee;
 }
