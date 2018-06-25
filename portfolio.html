@@ -5,7 +5,7 @@ layout: default
   <div class="container">
     <div class="row">
       {% for work in site.portfolio limit:4 %}
-        <div class="col-3">
+        <div class="three columns">
             <a href="{{site.baseurl}}{{work.url}}">{{work.title}}</a>
             <p>{{work.title}}</p>
             <p>{{work.content}}</p>
@@ -13,7 +13,7 @@ layout: default
         {% endfor %}
       </div>
       <div class="row">
-        <div class="col-12">
+        <div class="twelve columns">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pulvinar ante molestie nulla varius, sed dapibus turpis egestas. Curabitur sagittis urna felis, ullamcorper efficitur ex blandit id. Mauris interdum tellus euismod placerat feugiat. Sed
             et euismod nisi. Sed vulputate lacus a maximus cursus. Aliquam ornare, velit vitae ullamcorper sollicitudin, mi ligula aliquet lacus, efficitur pulvinar augue leo in ante. Sed efficitur lorem non neque tincidunt rutrum. Aenean tempor felis quis
             arcu accumsan pretium. Ut vestibulum libero massa, et luctus magna semper nec. Nullam tincidunt tortor id fringilla ultricies. Vivamus fringilla felis augue, a tincidunt dui aliquam ut. Donec at euismod massa, eu facilisis leo. Maecenas molestie

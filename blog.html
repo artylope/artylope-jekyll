@@ -4,7 +4,7 @@ layout: default
 <section id="blog">
   <div class="container">
     <div class="row">
-      <div id="sidebar" class="col-3">
+      <div id="sidebar" class="three columns">
         <div id="search-box">
           <form action="#" method="get">
             <input type="text" id="search-box" name="query">
@@ -46,7 +46,7 @@ layout: default
           </div>
         </div>
       </div>
-      <div id="main" class="col-9">
+      <div id="main" class="nine columns">
         <ul id="search-results"></ul>
         <div class="all-blogs">
           {% for blog in site.posts limit:5 %}
