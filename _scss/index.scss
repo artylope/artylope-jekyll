@@ -5,7 +5,7 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 $body-font-family: 'Muli', sans-serif;
 $headings-font-family: 'Montserrat', sans-serif;
-$headings-font-weight: 600;
+$headings-font-weight: 500;
 
 
 $nav-background: #FFF;
@@ -15,9 +15,11 @@ $hover-color: #3A506B;
 
 body{
   font-family: $body-font-family;
-  max-width: 1280px;
 }
 
+.container{
+  max-width: 1280px;
+}
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
@@ -26,12 +28,12 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: $headings-font-weight;
 }
 
-h1 { font-size: 3.0rem; letter-spacing: -.1rem;}
-h2 { font-size: 2.5rem; letter-spacing: -.1rem; }
-h3 { font-size: 2.0rem; letter-spacing: -.1rem; }
-h4 { font-size: 1.8rem; letter-spacing: -.08rem; }
-h5 { font-size: 1.5rem; letter-spacing: -.05rem; }
-h6 { font-size: 1.2rem; letter-spacing: 0; }
+h1 { font-size: 4.2rem; letter-spacing: -.1rem;}
+h2 { font-size: 3.5rem; letter-spacing: -.1rem; }
+h3 { font-size: 3.0rem; letter-spacing: -.1rem; }
+h4 { font-size: 2.8rem; letter-spacing: -.08rem; }
+h5 { font-size: 2.5rem; letter-spacing: -.05rem; }
+h6 { font-size: 1.0rem; letter-spacing: 0; }
 
 p {
   margin-top: 0; }
@@ -115,9 +117,32 @@ nav {
 #sidebar{
   ul,ol{
     list-style-type: none;
-    
+
     li{
 
+    }
+  }
+}
+
+#main{
+  .all-blogs{
+    .blog-piece{
+      padding-top: 5em;
+      &:first-child{
+        padding-top: 0;
+      }
+
+      h1{
+        margin-bottom: 1em;
+      }
+      hr{
+        margin-top: 4em;
+      }
+      .tags{
+        margin-top: 3em;
+        text-align: right;
+        color: #aaa;
+      }
     }
   }
 }
