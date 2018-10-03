@@ -13,7 +13,7 @@
 
 #main-content{
   max-width: 700px;
-  #search-results{
+  #search-results-container{
     margin-bottom: 2em;
     .keywords{
       font-size: 90%;
@@ -61,7 +61,7 @@
 
 #sidebar {
   display: none; //disappear in screens 720px and below
-  text-align: right;
+  text-align: left;
   > div {
       margin-bottom: 2em;
     }
@@ -101,10 +101,10 @@
     ul {
       li {
         list-style: none;
-        margin-left: 0;
-        text-indent: -2.5em;
+        /* margin-left: 0;
+        text-indent: -2.5em; */
         /* font-size: .8em; */
-        text-align: right;
+        text-align: left;
         line-height: 1.6em;
 
         a {

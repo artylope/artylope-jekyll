@@ -1,7 +1,9 @@
+---
+layout: single-work
 title: Comparisons Operators
 link: http://52.55.189.73/2016/10/02/comparisons-operators/
 author: angyixin
-description: 
+description:
 post_id: 54
 created: 2016/10/02 08:01:09
 created_gmt: 2016/10/02 08:01:09
@@ -9,6 +11,7 @@ comment_status: closed
 post_name: comparisons-operators
 status: publish
 post_type: post
+---
 
 # Comparisons Operators
 

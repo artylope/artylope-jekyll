@@ -466,9 +466,9 @@ body {
 
 #main-content {
   max-width: 700px; }
-  #main-content #search-results {
+  #main-content #search-results-container {
     margin-bottom: 2em; }
-    #main-content #search-results .keywords {
+    #main-content #search-results-container .keywords {
       font-size: 90%;
       color: #666; }
   #main-content .blog-post {
@@ -502,7 +502,7 @@ body {
 
 #sidebar {
   display: none;
-  text-align: right; }
+  text-align: left; }
   #sidebar > div {
     margin-bottom: 2em; }
   #sidebar #search {
@@ -531,10 +531,10 @@ body {
     margin-bottom: .5em; }
   #sidebar .sidebar-links ul li {
     list-style: none;
-    margin-left: 0;
-    text-indent: -2.5em;
+    /* margin-left: 0;
+        text-indent: -2.5em; */
     /* font-size: .8em; */
-    text-align: right;
+    text-align: left;
     line-height: 1.6em; }
     #sidebar .sidebar-links ul li a {
       color: #333; }
