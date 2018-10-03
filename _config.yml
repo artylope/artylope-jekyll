@@ -2,9 +2,9 @@ baseurl:
 exclude: ['README.md']
 
 collections:
-  portfolio:
+  works:
     output: true
-    permalink: /portfolio/:path/
+    permalink: /works/:path/
 
 gems:
   - jekyll-archives
