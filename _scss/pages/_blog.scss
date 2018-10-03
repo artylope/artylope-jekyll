@@ -1,0 +1,135 @@
+#blog{
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-top: 8em;
+  margin-bottom: 8em;
+  display: grid;
+  grid-template-columns: 100%;
+  > div {
+    padding: 2em;
+  }
+}
+
+
+#main-content{
+  max-width: 700px;
+  #search-results{
+    margin-bottom: 2em;
+    .keywords{
+      font-size: 90%;
+      color:#666;
+    }
+  }
+  .blog-post{
+    margin-bottom: 4em;
+    border-bottom: 1px solid #ccc;
+    .post-date{
+      margin-top: 1em;
+      font-size: 90%;
+      color:#666;
+    }
+    .blog-post-content{
+      margin-top: 2em;
+      margin-bottom: 2em;
+    }
+    .tags{
+      text-align: right;
+      margin-top: 3em;
+      font-size: 90%;
+      color:#666;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      margin: 2em auto;
+    }
+  }
+
+  .blog-bottom-nav{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 1em;
+    font-family: $header-font;
+    .nav-left{
+      text-align: left;
+    }
+    .nav-right{
+      text-align: right;
+    }
+  }
+}
+
+#sidebar {
+  display: none; //disappear in screens 720px and below
+  text-align: right;
+  > div {
+      margin-bottom: 2em;
+    }
+
+  #search{
+    margin-left:2em;
+    margin-bottom: 3em;
+    right: 0;
+    .submit{
+      display: none;
+    }
+    label{
+      position: absolute;
+      top: -9999em;
+      left: -9999em;
+      clip: rect(1px, 1px, 1px, 1px);
+    }
+    input[type=text], input[type=password], input[type=email], textarea {
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        color: #666;
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+        resize: vertical;
+        font-family: $header-font;
+        font-size: 1em;
+    }
+  }
+  h2{
+    font-size: 1.5em;
+    margin-bottom: .5em;
+  }
+
+  .sidebar-links {
+
+    ul {
+      li {
+        list-style: none;
+        margin-left: 0;
+        text-indent: -2.5em;
+        /* font-size: .8em; */
+        text-align: right;
+        line-height: 1.6em;
+
+        a {
+          color: $body-color;
+          &:hover{
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+@media (min-width: 720px) {
+ #blog{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-gap: 0;
+      > div {
+        padding: 2em;
+      }
+  }
+  #sidebar{
+    display: inline;
+  }
+}

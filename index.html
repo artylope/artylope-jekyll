@@ -2,15 +2,29 @@
 layout: default
 ---
 <section id="works">
-  <div class="container">
-    <div class="row">
-      {% for work in site.works limit:4 %}
-        <div class="three columns">
-            <a href="{{site.baseurl}}{{work.url}}">{{work.title}}</a>
-            <p>{{work.title}}</p>
-            <p>{{work.content}}</p>
+    <div class="container">
+      <div class="row center">
+        {% for work in site.works %}
+        <div class="col-xs-12
+                col-sm-12
+                col-md-6
+                col-lg-4">
+          <div class="box">
+            <div class="card">
+              <a href="{{site.baseurl}}{{work.url}}">
+              <div class="thumbnail" style="background-image: url('{{site.baseurl}}{{work.thumbnail}}');">
+              </div>
+              <div class="info">
+                <h1>{{work.title}}</h1>
+                <p>
+                  {{work.description}}
+                </p>
+              </div>
+              </a>
+            </div>
+          </div>
         </div>
         {% endfor %}
       </div>
-  </div>
-</section>
+    </div>
+  </section>

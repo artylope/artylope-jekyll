@@ -1,0 +1,11 @@
+$brand-primary: #484DA9;
+$brand-primary-hover: darken($brand-primary,20%);
+$nav-background: #FFFFFF;
+$link-color: $brand-primary;
+$link-hover: lighten($link-color,50%);
+$link-active: darken($link-color,50%);
+
+$header-font: 'Poppins', sans-serif;
+$body-font: 'Muli', sans-serif;
+$body-color: #333;
+$light-grey: #888;

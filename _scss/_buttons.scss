@@ -1,0 +1,17 @@
+button {
+    background-color: $brand-primary;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: $header-font;
+    font-weight: 400;
+    color: white;
+    border-radius: 50px;
+    font-size: 1.2em;
+    cursor: pointer;
+    &:hover{
+      background-color: $brand-primary-hover;
+    }
+}

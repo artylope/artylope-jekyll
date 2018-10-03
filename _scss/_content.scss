@@ -1,0 +1,102 @@
+.content{
+  padding-top: 20px;
+  padding-bottom: 50px;
+  text-align: center;
+
+  h1,h2,h3,h4,h5,h6{
+    max-width: 700px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+  }
+
+  h1{
+    font-size: 2.4em;
+    margin-top: 1.6em;
+    margin-bottom: 1em;
+    line-height: 1.3em;
+  }
+
+  h2{
+    margin-top: 1.6em;
+    margin-bottom: .6em;
+    color: $body-color;
+  }
+
+  h3{
+    margin-top: 1.2em;
+    margin-bottom: .6em;
+    color: $light-grey;
+  }
+
+  h4{
+    font-weight: 400;
+    color: $light-grey;
+    margin-top: 1.6em;
+    margin-bottom: .6em;
+  }
+
+  h5{
+    font-weight: 400;
+    color: $light-grey;
+    margin-top: 1.6em;
+    margin-bottom: .6em;
+  }
+
+  h6{
+    font-weight: 400;
+    text-align: center;
+    color:$light-grey;
+    font-size: .9em;
+    margin-top: .3em;
+    margin-bottom: 3em;
+  }
+
+  p{
+    max-width: 700px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 1.2em;
+    max-width: 700px;
+  }
+  blockquote{
+    text-align: left;
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 2em;
+    border-left: 10px solid $brand-primary;
+    quotes: "\201C""\201D""\2018""\2019";
+    font-style: italic;
+    margin-top: 4em;
+    margin-bottom: 4em;
+
+    &:before{
+      color: #ccc;
+      content: open-quote;
+      font-size: 8em;
+      line-height: 0.1em;
+      margin-right: 0.25em;
+      vertical-align: -0.4em;
+    }
+  }
+  img{
+    margin-top: 2em;
+    &.inner{
+      max-width: 700px;
+      height: auto;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 2em;
+      object-fit: scale-down;
+    }
+  }
+  ul, ol{
+    max-width: 700px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 1.2em;
+  }
+}

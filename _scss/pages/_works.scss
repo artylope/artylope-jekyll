@@ -1,0 +1,76 @@
+#works {
+  margin-top: 8em;
+  margin-bottom: 8em;
+
+  .container{
+    max-width: 1280px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .box {
+    margin: 1em 0.5em;
+  }
+
+  .card {
+    margin: 0 auto;
+    cursor: pointer;
+    max-width: 600px;
+    border-radius: 5px;
+    border: 1px solid #ebebeb;
+    // box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.2s ease-out, transform 0.2s ease-out, opacity 0.1s ease-out, -webkit-box-shadow 0.2s ease-out, -webkit-transform 0.2s ease-out;
+    a{
+      color: $body-color;
+      &:hover{
+        text-decoration: none;
+      }
+      }
+      .thumbnail {
+        position: relative;
+        border-radius: 5px 5px 0 0;
+        background-size: cover;
+        background-position: center center;
+
+        &:before {
+          // height to follow 75% of width
+          content: "";
+          display: block;
+          padding-top: 75%;
+        }
+      }
+
+      .info {
+        padding: 1.5em;
+        min-height: 80px;
+
+        h1 {
+          font-size: 1.5em;
+          margin-bottom: 0.5em;
+        }
+
+        p {
+          font-size: 1em;
+        }
+      }
+
+
+
+    &:hover {
+      transform: translate(0px, -5px);
+      box-shadow: rgba(45, 45, 45, 0.1) 0 2px 2px, rgba(49, 49, 49, 0.1) 0 4px 4px;
+    }
+  }
+  @media only screen and (min-width: 48em) {
+    .col-md-6 {
+      flex-basis: 50%;
+      max-width: 50%;
+    }
+  }
+  @media only screen and (min-width: 75em) {
+    .col-lg-4 {
+      flex-basis: 33.33333333%;
+      max-width: 33.33333333%;
+    }
+  }
+}
