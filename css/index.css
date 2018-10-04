@@ -152,7 +152,8 @@ button {
           position: relative;
           height: auto;
           width: auto;
-          left: 20px; }
+          left: 20px;
+          z-index: 100; }
       #nav #main-nav .wrapper #main-menu {
         display: none;
         padding: 20px;
@@ -396,7 +397,8 @@ body {
   margin-top: 8em;
   margin-bottom: 8em; }
   #single-work .container {
-    margin: 0 auto; }
+    margin: 0 auto;
+    width: 100%; }
     #single-work .container .work-meta {
       margin: 0 auto;
       max-width: 700px;
@@ -408,7 +410,7 @@ body {
       #single-work .container .work-meta h1 {
         font-size: 3em; }
       #single-work .container .work-meta .work-owner {
-        margin-top: 1.2em;
+        margin-top: .5em;
         margin-bottom: .5em; }
       #single-work .container .work-meta .work-meta-row {
         display: flex;
@@ -424,6 +426,14 @@ body {
           flex-basis: 6em; }
         #single-work .container .work-meta .work-meta-row .work-meta-value {
           flex-grow: 1; }
+    #single-work .container #hero {
+      margin-bottom: 1em; }
+    #single-work .container h1 {
+      font-size: 1.4em;
+      margin-bottom: .5em;
+      text-transform: uppercase; }
+    #single-work .container h2 {
+      margin-top: 0em; }
 
 #works-nav {
   background: #EBEBEB;

@@ -5,6 +5,7 @@
 
   .container{
     margin: 0 auto;
+    width: 100%;
 
       .work-meta{
         margin: 0 auto;
@@ -20,7 +21,7 @@
         }
 
         .work-owner{
-          margin-top: 1.2em;
+          margin-top: .5em;
           margin-bottom: .5em;
         }
 
@@ -42,6 +43,19 @@
             flex-grow:1;
           }
         }
+      }
+
+      #hero{
+        margin-bottom: 1em;
+      }
+
+      h1{
+        font-size: 1.4em;
+        margin-bottom: .5em;
+        text-transform: uppercase;
+      }
+      h2{
+        margin-top: 0em;
       }
 
   }
