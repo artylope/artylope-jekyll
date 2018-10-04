@@ -18,6 +18,7 @@
 
         h1{
           font-size: 3em;
+          text-transform: none;
         }
 
         .work-owner{
@@ -78,6 +79,7 @@
     text-align: center;
     > div{
       margin: 10px;
+      width: 200px;
     }
     a{
         color: $body-color;

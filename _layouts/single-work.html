@@ -42,31 +42,34 @@ layout: works
   </section>
   <section id="works-nav">
     <div class="container">
+      {% if page.collection %}
+          {% assign links = site[page.collection]  %}
+      {% endif %}
+
+      {% for link in links %}
+        {% if link.title == page.title %}
+          {% unless forloop.first %}
+            {% assign prev = tmpprev %}
+          {% endunless %}
+          {% unless forloop.last %}
+            {% assign next = links[forloop.index] %}
+          {% endunless %}
+        {% endif %}
+        {% assign tmpprev = link %}
+      {% endfor %}
+
       <div class="prev-work">
-        <a>← Project Name</a>
+        {% if prev %}
+        <a href="{{ prev.url}}">← {{ prev.title }}</a>
+        {% endif %}
       </div>
       <div class="all-works">
-        <a>All Works</a>
+        <a href="{{site.baseurl}}/index.html">All Works</a>
       </div>
       <div class="next-work">
-          <a>Project Name →</a>
+        {% if next %}
+          <a href="{{ next.url}}">{{ next.title }} →</a>
+        {% endif %}
       </div>
     </div>
   </section>
-
-  {% capture the_collection %}{{page.collection}}{% endcapture %} {% if page.collection %} {% assign document = site[the_collection] %} {% endif %}
-  <h1>TITLE: {{ page.title }}</h1> {% for links in document %} {% if links.title == page.title %} {% unless forloop.first %} {% assign prevurl = prev.url %} {% endunless %} {% unless forloop.last %} {% assign next = document[forloop.index] %} {% assign nexturl = next.url %} {%
-  endunless %} {% endif %} {% assign prev = links %} {% endfor %}
-
-  <script>
-    document.body.onkeyup = function(e) {
-      if (e.keyCode == '37') {
-        window.location = '{{prevurl}}';
-      }
-      if (e.keyCode == '39') {
-        window.location = '{{nexturl}}';
-      }
-    };
-  </script>
-
-  {% if prevurl %}<a href="{{prevurl}}" class="prev">PREV {{prevurl}}</a>{% endif %}<br /> {% if nexturl %}<a href="{{nexturl}}" class="nxt">Next {{nexturl}}</a>{% endif %}
