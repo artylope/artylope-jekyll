@@ -16,6 +16,9 @@ layout: default
               </div>
               <div class="info">
                 <h1>{{work.title}}</h1>
+                {% if work.locked == true %}
+                  <div class="private-label"><img class="locked" src="img/icon_locked.svg" />private</div>
+                {% endif %}
                 <p>
                   {{work.description}}
                 </p>

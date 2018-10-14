@@ -98,11 +98,11 @@ h6 {
 
 ul {
   list-style-type: disc;
-  list-style-position: outside; }
+  list-style-position: inside; }
 
 ol {
   list-style-type: decimal;
-  list-style-position: outside; }
+  list-style-position: inside; }
 
 button {
   background-color: #484DA9;
@@ -234,7 +234,8 @@ button {
         -moz-box-shadow: none; }
         #nav #main-nav .wrapper #main-menu ul {
           display: block;
-          float: right; }
+          float: right;
+          margin-right: 20px; }
           #nav #main-nav .wrapper #main-menu ul li {
             padding: 0 20px;
             position: relative;
@@ -287,8 +288,7 @@ button {
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
-    margin-bottom: 1.2em;
-    max-width: 700px; }
+    margin-bottom: 1.2em; }
   .content blockquote {
     text-align: left;
     max-width: 550px;
@@ -307,6 +307,8 @@ button {
       margin-right: 0.25em;
       vertical-align: -0.4em; }
   .content img {
+    max-width: 1280px;
+    margin: 0 auto;
     margin-top: 2em; }
     .content img.inner {
       max-width: 700px;
@@ -320,7 +322,9 @@ button {
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
-    margin-bottom: 1.2em; }
+    margin-bottom: 1.2em;
+    text-align: left;
+    font-size: 1.2em; }
 
 footer {
   background-color: #484DA9; }
@@ -377,9 +381,29 @@ body {
       padding: 1.5em;
       min-height: 80px; }
       #works .card .info h1 {
+        position: relative;
+        float: left;
         font-size: 1.5em;
         margin-bottom: 0.5em; }
+      #works .card .info .private-label {
+        position: relative;
+        float: left;
+        background: #aaa;
+        border-radius: 5px;
+        font-size: .9em;
+        color: white;
+        padding: 0 10px;
+        font-weight: 700;
+        letter-spacing: .05em;
+        text-transform: uppercase;
+        margin-left: 10px;
+        display: flex; }
+        #works .card .info .private-label .locked {
+          float: left;
+          width: 10px;
+          margin-right: 8px; }
       #works .card .info p {
+        clear: both;
         font-size: 1em; }
     #works .card:hover {
       transform: translate(0px, -5px);
@@ -409,7 +433,8 @@ body {
       margin-bottom: 30px; }
       #single-work .container .work-meta h1 {
         font-size: 3em;
-        text-transform: none; }
+        text-transform: none;
+        margin-bottom: 0em; }
       #single-work .container .work-meta .work-owner {
         margin-top: .5em;
         margin-bottom: .5em; }
