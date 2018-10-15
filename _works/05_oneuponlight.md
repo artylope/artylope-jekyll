@@ -41,7 +41,7 @@ During the early stage of development, we only knew we wanted a game that has to
 <div><img class="inner" src="/img/oul_02_LevelBlocking.jpg"></div>
 <div><img class="inner" src="/img/oul_03_DigitalPrototype.jpg"></div>
 
-# Visual Development#
+# Visual Development #
 The game is about avoiding lights and casting shadows to create paths. To support the gameplay, the visual contrast between light areas and shadow areas has to be strong enough to make it clear for the players between safe and danger zones. To emphasise further the importance and danger of the light, we used the monochrome style to avoid “noise” from colours and keep the focus on the elements of lights and shadows.
 
 <div><img class="inner" src="/img/oul_01_VisualTone.jpg"></div>
