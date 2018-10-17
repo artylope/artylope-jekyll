@@ -186,9 +186,33 @@ button {
             #nav #main-nav .wrapper #main-menu ul li a {
               color: #484DA9; }
               #nav #main-nav .wrapper #main-menu ul li a:hover {
-                color: #2a2c61; }
+                color: #484DA9; }
+                #nav #main-nav .wrapper #main-menu ul li a:hover::before {
+                  content: '';
+                  position: absolute;
+                  background: #484DA9;
+                  z-index: -1;
+                  bottom: -5px;
+                  left: 0%;
+                  right: 0%;
+                  margin: 0 auto;
+                  width: 30%;
+                  height: 10%;
+                  opacity: .5; }
             #nav #main-nav .wrapper #main-menu ul li.active a {
-              color: black; }
+              color: #484DA9; }
+              #nav #main-nav .wrapper #main-menu ul li.active a::before {
+                content: '';
+                position: absolute;
+                background: #484DA9;
+                z-index: -1;
+                bottom: -5px;
+                left: 0%;
+                right: 0%;
+                margin: 0 auto;
+                width: 30%;
+                height: 10%;
+                opacity: 1; }
       #nav #main-nav .wrapper #menu-icon {
         display: block;
         border-radius: 3px;

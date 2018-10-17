@@ -4,7 +4,7 @@
       <a href="{{site.baseurl}}/index.html"><img id="logo" src="{{site.baseurl}}/img/artylope_logo.svg" title="Artylope" alt="Artylope Logo"></a>
       <nav id="main-menu">
         <ul>
-          <li class="{% if page.url contains 'works' %}active{% else page.url == '/index.html' %}active{% endif %}"><a href="{{site.baseurl}}/index.html">Works</a></li>
+          <li class="{% if page.url == '/' %}active{% elsif page.url contains 'works' %}active{% else %}{% endif %}"><a href="{{site.baseurl}}/index.html">Works</a></li>
           <li class="{% if page.url == '/blog.html' %}active{% endif %}"><a href="{{site.baseurl}}/blog.html">Blog</a></li>
           <li class="{% if page.url == '/about.html' %}active{% endif %}"><a href="{{site.baseurl}}/about.html">About</a></li>
         </ul>
