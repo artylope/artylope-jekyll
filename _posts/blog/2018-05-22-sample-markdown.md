@@ -1,9 +1,11 @@
 ---
 layout: blog-post
 title: Sample Markdown
-meta: This is a Sample Markdown
+meta: This is the first post.
 category: blog
 tags: code
+author: Ang Yi Xin
+source: http://andymcfee.com/2013/02/25/embedding-codepens-into-jekyll-blogs/
 ---
 
 # Markdown Guide - This will be in the content link at the side bar.

@@ -33,13 +33,21 @@
     margin-bottom: 4em;
     border-bottom: 1px solid #ccc;
     .post-date{
-      margin-top: 1em;
+      margin-top: .2em;
       font-size: 90%;
       color:#666;
     }
     .blog-post-content{
       margin-top: 2em;
       margin-bottom: 2em;
+
+      h1,h2,h3,h4,h5,h6{
+        color: $body-color;
+      }
+      h1{
+        font-size: 1.2em;
+        margin-bottom: 1em;
+      }
     }
     .tags{
       text-align: right;
@@ -51,6 +59,10 @@
       width: 100%;
       height: auto;
       margin: 2em auto;
+    }
+    pre{
+      margin-top: 1em;
+      margin-bottom: 1em;
     }
   }
 

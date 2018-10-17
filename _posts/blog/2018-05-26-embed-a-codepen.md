@@ -1,9 +1,10 @@
 ---
 layout: blog-post
-title: Test Codepen
+title: Embed Codepen
 meta: This is the first post.
 category: blog
 tags: code
+author: Ang Yi Xin
 source: http://andymcfee.com/2013/02/25/embedding-codepens-into-jekyll-blogs/
 ---
 
@@ -20,3 +21,8 @@ This is a
 piece of code
 in a block
 ~~~~
+
+As Kanye West said:
+
+> We're living the future so
+> the present is our past.

@@ -60,14 +60,20 @@ With that information, I plotted this customer journey map to visualise the high
 ### Competitive Analysis ###
 Many cities have tried to address the parking problem. Some of these are initiated by the local governments, while others are solutions from the carpark owners. I collected the screenshots and compared the features that these solutions have.
 
-![Screenshots from a Parking App in City](https://via.placeholder.com/800x500)
-###### Screenshots from a Parking App in City ######
+<div><img src="/img/parking_us_parker.png"></div>
+###### Screenshots from Parker App from US ######
 
-![Comparisons of Parking Apps](https://via.placeholder.com/800x500)
-###### Comparisons of Parking Apps ######
+<div><img src="/img/parking_uk_paybyphone.png"></div>
+###### Screenshots from Pay By Phone from UK ######
+
+
+<div><img src="/img/parking_competitiveanalysis.png"></div>
+###### Competitive Analysis of Parking Apps ######
 
 ### Opportunity Space ###
 Digitising parking will not only benefit the citizens in terms of looking and paying for parking. The government will also have data for actual car park utilisation and this can be used for better resource planning.
+
+<div><img src="/img/parking_opportunityspace.png"></div>
 
 ### Prototyping ###
 With all the discovery and learning from above, I made this prototype in Sketch and InVision and brought it out for some Guerilla testing.
@@ -86,6 +92,6 @@ To help us understand the enforcement process and we can integrate with the enfo
 
 
 
-# Launch #
+# Development #
 
 ##

@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=PT+Serif:400,700");
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700");
-@import url("https://fonts.googleapis.com/css?family=Muli");
+@import url("https://fonts.googleapis.com/css?family=Muli:400,700");
 @import url("https://fonts.googleapis.com/css?family=Lora:400,700");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -289,6 +289,10 @@ button {
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 1.2em; }
+    .content p strong {
+      font-weight: 700 !important; }
+    .content p em {
+      font-style: italic !important; }
   .content blockquote {
     text-align: left;
     max-width: 550px;
@@ -517,12 +521,17 @@ body {
     margin-bottom: 4em;
     border-bottom: 1px solid #ccc; }
     #main-content .blog-post .post-date {
-      margin-top: 1em;
+      margin-top: .2em;
       font-size: 90%;
       color: #666; }
     #main-content .blog-post .blog-post-content {
       margin-top: 2em;
       margin-bottom: 2em; }
+      #main-content .blog-post .blog-post-content h1, #main-content .blog-post .blog-post-content h2, #main-content .blog-post .blog-post-content h3, #main-content .blog-post .blog-post-content h4, #main-content .blog-post .blog-post-content h5, #main-content .blog-post .blog-post-content h6 {
+        color: #333; }
+      #main-content .blog-post .blog-post-content h1 {
+        font-size: 1.2em;
+        margin-bottom: 1em; }
     #main-content .blog-post .tags {
       text-align: right;
       margin-top: 3em;
@@ -532,6 +541,9 @@ body {
       width: 100%;
       height: auto;
       margin: 2em auto; }
+    #main-content .blog-post pre {
+      margin-top: 1em;
+      margin-bottom: 1em; }
   #main-content .blog-bottom-nav {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -592,6 +604,11 @@ body {
       padding: 2em; }
   #sidebar {
     display: inline; } }
+
+#blog-post {
+  margin-top: 8em;
+  margin-bottom: 8em;
+  background-color: red; }
 
 #about {
   margin-top: 8em;

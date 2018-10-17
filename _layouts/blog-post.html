@@ -2,39 +2,37 @@
 layout: blog
 ---
 
-<section id="blog-post">
-  <div class="container">
-    <div class="row">
-      <div class="three columns">
-        <p>
-          Posted {{page.date}}
-        </p>
-        </p>
-      </div>
-
-      <div class="nine columns">
-        <h2>{{page.title}}</h2>
-        <p>{{page.meta}}</p>
-        <p>{{page.tags}}</p>
-
-        <p>{{content}}</p>
-        <div class="row">
-          {% if page.previous.url %}
-          <div class="six columns">
-            <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
-          </div>
-          {% endif %}
-          <div class="six columns" style="text-align: right;">
-            {% if page.next.url %}
-            <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
-          </div>
-          {% endif %}
+<section id="blog">
+  <div id="sidebar">
+    <div id="post-meta">
+      <a href="{{site.baseurl}}/blog.html">back to main</a>
+      <br />
+      Published on {{ page.date | date: '%d %B %Y' }}
+      <br />
+      by {{page.author}}
+      <br />
+      in {{page.tags}}
+    </div>
+  </div>
+  <div id="main-content">
+    <div id="all-posts">
+      <div class="blog-post">
+        <h1>{{page.title}}</h1>
+        <div class="post-date">Published on {{ page.date | date: '%d %B %Y' }} by {{page.author}}</div>
+        <div class="blog-post-content">
+          <p>{{content}}</p>
+          <div class="tags">{{blog.tags}}</div>
         </div>
       </div>
-
-      </div>
-
     </div>
-
+    <div class="blog-bottom-nav">
+      {% if page.previous.url %}
+      <div class="nav-left"><a href="{{page.previous.url}}">← {{page.previous.title}}</a></div>
+      {% endif %}
+      {% if page.next.url %}
+      <div class="nav-right"><a href="{{page.next.url}}">{{page.next.title}} →</a></div>
+        {% endif %}
+    </div>
+  </div>
   </div>
 </section>
