@@ -51,8 +51,8 @@ The game is about avoiding lights and casting shadows to create paths. To suppor
 <div><img class="inner" src="/img/oul_05_DeviceManual.jpg"></div>
 
 # User Testing #
-Here is a photo of a user playtesting the game.
-<div><img class="inner" src="/img/oul_casualconnectTesting.jpg"></div>
+Here is a photo of a user playtesting the game. We conduct playtesting to validate if the game is fun and if any parts of the game makes it confusing for the user.
+<div><img class="inner" src="/img/oul_06_casualconnecttesting.jpg"></div>
 
 # Game Screenshots #
 Here are some screenshots from the game.

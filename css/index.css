@@ -353,12 +353,19 @@ body {
   background-size: cover; }
 
 #works {
-  margin-top: 8em;
+  margin-top: 10em;
   margin-bottom: 8em; }
   #works .container {
     max-width: 1280px;
     padding-left: 20px;
     padding-right: 20px; }
+    #works .container#greetings {
+      margin-top: 2em;
+      margin-bottom: 3em; }
+      #works .container#greetings h1 {
+        font-size: 4em;
+        line-height: 1.2em;
+        padding-left: 10px; }
   #works .box {
     margin: 1em 0.5em; }
   #works .card {
