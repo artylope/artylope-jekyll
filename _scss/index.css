@@ -359,6 +359,8 @@ body {
     max-width: 1280px;
     padding-left: 20px;
     padding-right: 20px; }
+    #works .container#greetings {
+      margin-bottom: 10em; }
   #works .box {
     margin: 1em 0.5em; }
   #works .card {
@@ -521,12 +523,17 @@ body {
     margin-bottom: 4em;
     border-bottom: 1px solid #ccc; }
     #main-content .blog-post .post-date {
-      margin-top: 1em;
+      margin-top: .2em;
       font-size: 90%;
       color: #666; }
     #main-content .blog-post .blog-post-content {
       margin-top: 2em;
       margin-bottom: 2em; }
+      #main-content .blog-post .blog-post-content h1, #main-content .blog-post .blog-post-content h2, #main-content .blog-post .blog-post-content h3, #main-content .blog-post .blog-post-content h4, #main-content .blog-post .blog-post-content h5, #main-content .blog-post .blog-post-content h6 {
+        color: #333; }
+      #main-content .blog-post .blog-post-content h1 {
+        font-size: 1.2em;
+        margin-bottom: 1em; }
     #main-content .blog-post .tags {
       text-align: right;
       margin-top: 3em;
@@ -536,6 +543,9 @@ body {
       width: 100%;
       height: auto;
       margin: 2em auto; }
+    #main-content .blog-post pre {
+      margin-top: 1em;
+      margin-bottom: 1em; }
   #main-content .blog-bottom-nav {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -596,6 +606,11 @@ body {
       padding: 2em; }
   #sidebar {
     display: inline; } }
+
+#blog-post {
+  margin-top: 8em;
+  margin-bottom: 8em;
+  background-color: red; }
 
 #about {
   margin-top: 8em;
