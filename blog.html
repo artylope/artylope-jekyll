@@ -21,7 +21,7 @@ layout: default
             </ul>
           </div>
         </div>
-        <div id="tags">
+        <!-- <div id="tags">
           <h2>Tags</h2>
           <div class="sidebar-links">
             <ul>
@@ -44,7 +44,7 @@ layout: default
               <li><a href="#">April 2018</a></li>
             </ul>
           </div>
-        </div>
+        </div> -->
         <!-- <div id="test">
           <h2>Archives</h2>
           <div class="sidebar-links">
@@ -80,7 +80,7 @@ layout: default
         <div id="all-posts">
         {% for blog in site.posts limit:5 %}
         <div class="blog-post">
-          <h1>{{blog.title}}</h1>
+          <h1><a href="{{site.baseurl}}{{blog.url}}">{{blog.title}}</a></h1>
           <div class="post-date">Published on {{ blog.date | date: '%d %B %Y' }} by {{blog.author}}</div>
           <div class="blog-post-content">
             {{blog.content}}
@@ -89,10 +89,19 @@ layout: default
         </div>
         {% endfor %}
         </div>
-        <div class="blog-bottom-nav">
+        <!-- <div class="blog-bottom-nav">
+          {% if paginator.previous_page %}
           <div class="nav-left"><a href="">← Older Posts</a></div>
+          {% else %}
+          <div class="nav-left">← Older Posts</div>
+          {% endif %}
+
+          {% if paginator.next_page %}
           <div class="nav-right"><a href="">Newer Posts →</a></div>
-        </div>
+          {% else %}
+          <div class="nav-right">Newer Posts →</div>
+          {% endif %}
+        </div> -->
       </div>
     </section>
 
