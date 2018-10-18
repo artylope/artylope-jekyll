@@ -1,11 +1,9 @@
 ---
 layout: blog-post
 title: Embed Codepen
-meta: This is the first post.
 category: blog
 tags: code
 author: Ang Yi Xin
-source: http://andymcfee.com/2013/02/25/embedding-codepens-into-jekyll-blogs/
 ---
 
 embed a codepen
