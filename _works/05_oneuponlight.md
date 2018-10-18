@@ -10,7 +10,6 @@ hero: "/img/works_oul_hero.png"
 owner: SUTD Game Lab
 platform: Sony Playstation, PC and Mac
 year: 2013-2014
-role: Game Artist. Game Art, User Interface Design, User Experience Design, Character Design, Concept Art, 2D Textures, Environment Design, Website Design and Development, Video Trailer Production and Editing
 ---
 
 # Overview #
@@ -19,8 +18,13 @@ One Upon Light is conceptualised and developed during the time I was at SUTD Gam
 <div><img class="inner" src="/img/oul_gamemechanic.gif"></div>  
 ###### Stay out of the light and remain in the shadow! ######
 
+# My Role #
+Game Artist. Game Art, User Interface Design, User Experience Design, Character Design, Concept Art, 2D Textures, Environment Design, Website Design and Development, Video Trailer Production and Editing.
+
+There were 2 artists. I focused more on the 2D elements (e.g. user interface, model textures, concept art etc), video and website while the other artist focused more on 3D models, in game visual effects and animation.
+
 # The Team #
-  Main Team of 7 people. 1 Game Designer, 2 Artists, 3 Programmers, 1 QA and an audio team. I worked as an artist. My fellow artists focused more on 3D Modelling, Effects and Animation, while I focused more on the 2D elements (e.g. user interface, textures, concept art etc)
+Team of 7 people. 1 Game Designer, 2 Artists, 3 Programmers, 1 QA and an audio team.
 
 # Prototyping #
 During the early stage of development, we only knew we wanted a game that has to do with light and shadows, so  we needed to figure out what the game mechanics will be. We made different prototypes. Prototypes allow users to try out the game to see what works and what didn't. Here are some prototypes made by the Game Designer.
