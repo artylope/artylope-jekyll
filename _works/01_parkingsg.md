@@ -43,19 +43,19 @@ Lead Designer. User Research, Prototyping, Wireframing, User Testing, User Inter
 # Interviewing the users #
 I prepared the following interview questions and interviewed several people who drive and uses the parking coupons. These are what they say, think and do.
 
-<div><img class="inner" src="/img/parking_userinterviewguide.png"></div>
+<div><img src="/img/parking_userinterviewguide.png"></div>
 ###### Interview Guide ######
 
-<div><img class="inner" src="/img/parking_user1.png"></div>
+<div><img src="/img/parking_user1.png"></div>
 ###### Interview: User 1 ######
 
-<div><img class="inner" src="/img/parking_user2.png"></div>
+<div><img src="/img/parking_user2.png"></div>
 ###### Interview: User 2 ######
 
-<div><img class="inner" src="/img/parking_user3.png"></div>
+<div><img src="/img/parking_user3.png"></div>
 ###### Interview: User 3 ######
 
-<div><img class="inner" src="/img/parking_user4.png"></div>
+<div><img src="/img/parking_user4.png"></div>
 ###### Interview: User 4 ######
 
 # Mapping out the user journey #
