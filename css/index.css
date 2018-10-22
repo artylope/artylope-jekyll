@@ -376,28 +376,37 @@ body {
   background: url("./img/hero.png") no-repeat fixed center;
   background-size: cover; }
 
+header {
+  margin-top: 5em;
+  text-align: center;
+  background: url("../img/introduo.png") top;
+  background-size: cover;
+  height: 500px; }
+  header .container#greetings h1 {
+    font-size: 3em;
+    line-height: 1.2em;
+    padding-left: 10px;
+    padding-top: 150px;
+    color: white; }
+
 #works {
-  margin-top: 10em;
+  margin-top: -10em;
   margin-bottom: 8em; }
   #works .container {
     max-width: 1280px;
     padding-left: 20px;
     padding-right: 20px; }
-    #works .container#greetings {
-      margin-top: 2em;
-      margin-bottom: 3em; }
-      #works .container#greetings h1 {
-        font-size: 3em;
-        line-height: 1.2em;
-        padding-left: 10px; }
   #works .box {
-    margin: 1em 0.5em; }
+    margin: 1em 0.5em;
+    background: white;
+    border-radius: 10px; }
   #works .card {
     margin: 0 auto;
     cursor: pointer;
     max-width: 600px;
-    border-radius: 5px;
-    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    /* border: 1px solid #ebebeb; */
+    box-shadow: rgba(45, 45, 45, 0.1) 0 1px 1px, rgba(49, 49, 49, 0.1) 0 2px 2px;
     transition: box-shadow 0.2s ease-out, transform 0.2s ease-out, opacity 0.1s ease-out, -webkit-box-shadow 0.2s ease-out, -webkit-transform 0.2s ease-out; }
     #works .card a {
       color: #333; }
@@ -405,7 +414,7 @@ body {
         text-decoration: none; }
     #works .card .thumbnail {
       position: relative;
-      border-radius: 5px 5px 0 0;
+      border-radius: 10px 10px 0 0;
       background-size: cover;
       background-position: center center; }
       #works .card .thumbnail:before {

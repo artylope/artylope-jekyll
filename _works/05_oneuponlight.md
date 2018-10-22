@@ -10,6 +10,8 @@ hero: "/img/works_oul_hero.png"
 owner: SUTD Game Lab
 platform: Sony Playstation, PC and Mac
 year: 2013-2014
+role: Game Artist. Game Art, User Interface Design, User Experience Design, Character Design, Concept Art, 2D Textures, Environment Design, Website Design and Development, Video Trailer Production and Editing
+
 ---
 
 # Overview #
