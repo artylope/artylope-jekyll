@@ -88,12 +88,12 @@ With all the discovery and learning from above, I made this prototype in Sketch 
 ![User Tasks Scenario](https://via.placeholder.com/800x500)
 ###### Based on these tasks, I tested with users and refined the prototype further ######
 
-The developers made a working prototype with a simple backend for pitching to the public agencies who manages the carparks. Our goal here is to convince them to let us trial the parking app at some car parks with actual users and enforcement officers.
+The developers made a working prototype with a simple backend for pitching to the public agencies who manages the carparks. Our goal here is to convince them to let us trial the parking app at some car parks with actual users and enforcement officers. We removed the need for users to login at this point. 
 
 # Enthography Study with Enforcement Officer #
-To help us understand the enforcement process and we can integrate with the enforcement systems, we walked the ground with the enforcement officers.
-![Walking the grounds with the enforcement officers](https://via.placeholder.com/800x500)
-###### The development team walked the grounds with the enforcement officers ######
+To help us understand the enforcement process and we can integrate with the enforcement systems, we walked the ground with the enforcement officer. She shows us the electronic handheld device (EHT) that she uses to check for season parking information. She also uses it to issue summon.
+<div><img src="/img/parking_ethnographystudy.png"></div>
+###### The development team walked the grounds with the enforcement officer. ######
 
 
 # Alpha Trial #
