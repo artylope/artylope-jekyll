@@ -18,7 +18,7 @@ role: Lead Designer. User Research, Prototyping, Wireframing, User Testing, User
 
   We wanted to develop a digital parking system that can replace the paper coupons, to give citizens the convenience of being able to pay for parking easily and extend parking remotely.
 
-  <div><img class="inner" src="/img/parking_problem.png"></div>
+  <div><img src="/img/parking_problem.png"></div>
 ###### what staying over at a friend's place will make of your car's dashboard ######
 
 # The Solution #
@@ -88,7 +88,7 @@ With all the discovery and learning from above, I made this prototype in Sketch 
 ![User Tasks Scenario](https://via.placeholder.com/800x500)
 ###### Based on these tasks, I tested with users and refined the prototype further ######
 
-The developers made a working prototype with a simple backend for pitching to the public agencies who manages the carparks. Our goal here is to convince them to let us trial the parking app at some car parks with actual users and enforcement officers. We removed the need for users to login at this point. 
+The developers made a working prototype with a simple backend for pitching to the public agencies who manages the carparks. Our goal here is to convince them to let us trial the parking app at some car parks with actual users and enforcement officers. We removed the need for users to login at this point.
 
 # Enthography Study with Enforcement Officer #
 To help us understand the enforcement process and we can integrate with the enforcement systems, we walked the ground with the enforcement officer. She shows us the electronic handheld device (EHT) that she uses to check for season parking information. She also uses it to issue summon.
@@ -109,3 +109,6 @@ To help us understand the enforcement process and we can integrate with the enfo
 # Reception #
 
 # Final Thoughts #
+In the words of Abraham Lincoln:
+
+> Pardon my French
