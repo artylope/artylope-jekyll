@@ -32,6 +32,11 @@
   .blog-post{
     margin-bottom: 4em;
     border-bottom: 1px solid #ccc;
+
+    h1{
+      margin-bottom: .2em;
+      line-height: 1.1em;
+    }
     .post-date{
       margin-top: .2em;
       font-size: 90%;
@@ -46,7 +51,8 @@
       }
       h1{
         font-size: 1.2em;
-        margin-bottom: 1em;
+        margin-top: 1.5em;
+        margin-bottom: .5em;
       }
     }
     .tags{
@@ -67,8 +73,9 @@
   }
 
   .blog-bottom-nav{
-    display: grid;
-    grid-template-columns: 50% 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     margin-bottom: 1em;
     font-family: $header-font;
     .nav-left{

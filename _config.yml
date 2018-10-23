@@ -1,14 +1,12 @@
 baseurl:
 exclude: ['README.md']
 
-plugins: [jekyll-paginate]
-
 collections:
   works:
     output: true
     permalink: /works/:path/
 
-gems:
+plugins:
   - jekyll-archives
 
 jekyll-archives:
@@ -20,6 +18,3 @@ jekyll-archives:
     day: '/:year/:month/:day/'
     tag: '/tag/:name/'
     category: '/category/:name/'
-
-paginate: 5
-paginate_path: "/blog/page:num/"

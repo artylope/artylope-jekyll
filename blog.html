@@ -1,5 +1,7 @@
 ---
 layout: default
+pagination:
+  enabled: true
 ---
 
 <section id="blog">
@@ -78,33 +80,23 @@ layout: default
         </div> -->
         <ul id="search-results"></ul>
         <div id="all-posts">
-        {% for blog in site.posts limit:5 %}
+        {% for post in site.posts limit:5 %}
         <div class="blog-post">
-          <h1><a href="{{site.baseurl}}{{blog.url}}">{{blog.title}}</a></h1>
-          <div class="post-date">Published on {{ blog.date | date: '%d %B %Y' }} by {{blog.author}}</div>
+          <h1><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h1>
+          <div class="post-date">Published on {{ post.date | date: '%d %B %Y' }} by {{post.author}}</div>
           <div class="blog-post-content">
-            {{blog.content}}
-            <div class="tags">in {{blog.tags}}</div>
+            {{post.content}}
+            <div class="tags">in {{post.tags}}</div>
           </div>
         </div>
         {% endfor %}
         </div>
         <div class="blog-bottom-nav">
-          {% if paginator.previous_page %}
-          <div class="nav-left"><a href="">← Older Posts</a></div>
-          {% else %}
-          <div class="nav-left">← Older Posts</div>
-          {% endif %}
-
-          {% if paginator.next_page %}
-          <div class="nav-right"><a href="">Newer Posts →</a></div>
-          {% else %}
-          <div class="nav-right">Newer Posts →</div>
-          {% endif %}
+          <div class="nav-left"><a>← Newer Posts</a></div>
+          <div class="nav-right"><a>Older Posts →</a></div>
         </div>
       </div>
     </section>
-
 
     <script>
       window.store = {
