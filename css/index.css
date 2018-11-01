@@ -343,8 +343,7 @@ button {
       height: auto;
       text-align: center;
       margin: 0 auto;
-      margin-top: 2em;
-      object-fit: scale-down; }
+      margin-top: 1em; }
   .content ul, .content ol {
     max-width: 700px;
     margin: 0 auto;
@@ -594,9 +593,11 @@ header {
     margin-bottom: 1em;
     font-family: "Poppins", sans-serif; }
     #main-content .blog-bottom-nav .nav-left {
-      text-align: left; }
+      text-align: left;
+      align-self: flex-start; }
     #main-content .blog-bottom-nav .nav-right {
-      text-align: right; }
+      text-align: right;
+      margin-left: auto; }
 
 #sidebar {
   display: none;

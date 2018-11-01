@@ -23,7 +23,7 @@ One Upon Light is conceptualised and developed during the time I was at SUTD Gam
 # My Role #
 Game Artist. Game Art, User Interface Design, User Experience Design, Character Design, Concept Art, 2D Textures, Environment Design, Website Design and Development, Video Trailer Production and Editing.
 
-There were 2 artists. I focused more on the 2D elements (e.g. user interface, model textures, concept art etc), video and website while the other artist focused more on 3D models, in game visual effects and animation.
+There were 2 artists. I focused more on the 2D elements (e.g. user interface, model textures, concept art etc), video and website while the other artist, Simon Strauss, focused more on 3D models, in game visual effects and animation.
 
 # The Team #
 Team of 7 people. 1 Game Designer, 2 Artists, 3 Programmers, 1 QA and an audio team.

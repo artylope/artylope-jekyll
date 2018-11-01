@@ -80,7 +80,7 @@ pagination:
         </div> -->
         <ul id="search-results"></ul>
         <div id="all-posts">
-        {% for post in site.posts limit:5 %}
+        {% for post in paginator.posts %}
         <div class="blog-post">
           <h1><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h1>
           <div class="post-date">Published on {{ post.date | date: '%d %B %Y' }} by {{post.author}}</div>
@@ -91,10 +91,16 @@ pagination:
         </div>
         {% endfor %}
         </div>
+        {% if paginator.total_pages > 1 %}
         <div class="blog-bottom-nav">
-          <div class="nav-left"><a>← Newer Posts</a></div>
-          <div class="nav-right"><a>Older Posts →</a></div>
+            {% if paginator.previous_page %}
+          <div class="nav-left"><a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">← Newer Posts</a></div>
+          {% endif %}
+          {% if paginator.next_page %}
+          <div class="nav-right"><a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older Posts →</a></div>
+          {% endif %}
         </div>
+          {% endif %}
       </div>
     </section>
 

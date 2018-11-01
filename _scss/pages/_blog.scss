@@ -80,9 +80,11 @@
     font-family: $header-font;
     .nav-left{
       text-align: left;
+      align-self: flex-start;
     }
     .nav-right{
       text-align: right;
+      margin-left: auto;
     }
   }
 }

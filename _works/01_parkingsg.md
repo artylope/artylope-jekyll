@@ -81,13 +81,12 @@ Digitising parking will not only benefit the citizens in terms of looking and pa
 <div><img src="/img/parking_opportunityspace.png"></div>
 
 # 1st Prototype and Guerilla Testing #
-With all the discovery and learning from above, I made this prototype in Sketch and InVision and brought it out for some Guerilla testing.
-![Prototype](https://via.placeholder.com/800x500)
+With all the discovery and learning from above, I made this prototype in Sketch and InVision and brought it out for some Guerilla testing based on designed tasks scenarios.
+<div><img style="max-width:360px;" src="/img/parking_1stprototype.gif"></div>
 ###### Early Prototype done in Sketch and InVision ######
 
-![User Tasks Scenario](https://via.placeholder.com/800x500)
-###### Based on these tasks, I tested with users and refined the prototype further ######
-
+<div><img style="max-width:360px;" src="/img/parking_1stprototype.gif"></div>
+###### Task Scenarios ######
 The developers made a working prototype with a simple backend for pitching to the public agencies who manages the carparks. Our goal here is to convince them to let us trial the parking app at some car parks with actual users and enforcement officers. We removed the need for users to login at this point.
 
 # Enthography Study with Enforcement Officer #
@@ -97,18 +96,20 @@ To help us understand the enforcement process and we can integrate with the enfo
 
 
 # Alpha Trial #
+<div><iframe style="width:90%; height:675px;" src="//e.issuu.com/embed.html#35262208/65455453" frameborder="0" allowfullscreen></iframe></div>
 
-# Beta Trial #
+# Identifying Feature Priorities #
+<div><img src="/img/parking_featurepriority.png"></div>
+###### Plotting all features on a 2x2 matrix to help determine what to focus on. ######
 
 # Key Product Decisions #
+<a href="https://ibb.co/jHv8Cf"><img src="https://preview.ibb.co/chfKJL/parking-customerjourney.png" alt="parking-customerjourney" border="0"></a>
+# Beta Trial #
 
 # UI Improvements #
 
 # Full Launch #
+Parking.sg is launched in Oct 2017. It is available on iOS and Android.
 
 # Reception #
-
-# Final Thoughts #
-In the words of Abraham Lincoln:
-
-> Pardon my French
+By June 2018, Parking.sg is the top government app with 700k iOS and Android App downloads and 8 million parking sessions and has an average ratings of 4.1 stars on Apple App Store and Google Play Store.
