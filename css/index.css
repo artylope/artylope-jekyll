@@ -82,13 +82,16 @@ h1 {
   line-height: 1em; }
 
 h2 {
-  font-size: 2em; }
+  font-size: 2em;
+  line-height: 1.2em; }
 
 h3 {
-  font-size: 1.4em; }
+  font-size: 1.4em;
+  line-height: 1.2em; }
 
 h4 {
-  font-size: 1.2em; }
+  font-size: 1.2em;
+  line-height: 1.4em; }
 
 h5 {
   font-size: 1em; }
@@ -586,22 +589,22 @@ header {
     #main-content .blog-post pre {
       margin-top: 1em;
       margin-bottom: 1em; }
-  #main-content .blog-bottom-nav {
+  #main-content #blog-bottom-nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 1em;
     font-family: "Poppins", sans-serif; }
-    #main-content .blog-bottom-nav .nav-left {
+    #main-content #blog-bottom-nav .nav-left {
       text-align: left;
       align-self: flex-start; }
-    #main-content .blog-bottom-nav .nav-right {
+    #main-content #blog-bottom-nav .nav-right {
       text-align: right;
       margin-left: auto; }
 
 #sidebar {
   display: none;
-  text-align: left; }
+  text-align: right; }
   #sidebar > div {
     margin-bottom: 2em;
     margin-right: 2em; }
@@ -620,7 +623,7 @@ header {
       border-radius: 3px;
       color: #666;
       padding: 10px;
-      width: 100%;
+      width: 80%;
       box-sizing: border-box;
       resize: vertical;
       font-family: "Poppins", sans-serif;
@@ -633,12 +636,26 @@ header {
     /* margin-left: 0;
         text-indent: -2.5em; */
     /* font-size: .8em; */
-    text-align: left;
+    text-align: right;
     line-height: 1.6em; }
     #sidebar .sidebar-links ul li a {
       color: #333; }
       #sidebar .sidebar-links ul li a:hover {
         text-decoration: underline; }
+
+#profile img {
+  border-radius: 100%;
+  width: 100px;
+  height: 100px; }
+
+#profile a:hover {
+  text-decoration: none; }
+
+#profile h1 {
+  margin-top: .5em;
+  font-size: 1em;
+  font-family: "Muli", sans-serif;
+  color: #333; }
 
 @media (min-width: 720px) {
   #blog {
@@ -650,10 +667,24 @@ header {
   #sidebar {
     display: inline; } }
 
+#search-results {
+  display: none; }
+  #search-results h1 {
+    margin-bottom: .2em; }
+  #search-results .search-results-count {
+    margin-bottom: 2em;
+    font-size: 1em; }
+    #search-results .search-results-count span {
+      font-size: 1em; }
+
 #blog-post {
   margin-top: 8em;
   margin-bottom: 8em;
   background-color: red; }
+
+#post-meta p {
+  text-align: right;
+  font-size: .9em; }
 
 #about {
   margin-top: 8em;

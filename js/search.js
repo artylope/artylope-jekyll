@@ -1,18 +1,26 @@
 (function() {
   function displaySearchResults(results, store) {
-    var searchResults = document.getElementById('search-results');
+    document.getElementById("search-results").style.display = 'block';
+    var searchResults = document.getElementById('search-results-list');
 
     if (results.length) { // Are there any results?
+      document.getElementById("search-results-count").innerHTML=(results.length);
       var appendString = '';
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
         var item = store[results[i].ref];
-        appendString += '<li><a href="' + item.url + '"><h3>' + item.title + '</h3></a>';
-        appendString += '<p>' + item.content.substring(0, 150) + '...</p></li>';
+        appendString += '<div class="blog-post"><a href="' + item.url + '"><h2>' + item.title + '</h2></a>';
+        appendString += '<div class="blog-post-content"><p>' + item.content + '... <a href="' + item.url + '"> Read More </a></p></div></div>';
+        console.log(item.content);
       }
 
       searchResults.innerHTML = appendString;
+      document.getElementById("all-posts").style.display = 'none';
+      document.getElementById("blog-bottom-nav").style.display = 'none';
     } else {
-      searchResults.innerHTML = '<li>No results found</li>';
+      document.getElementById("search-results-count").innerHTML=(results.length);
+      searchResults.innerHTML = '<p>No results found.</p>';
+      document.getElementById("all-posts").style.display = 'none';
+      document.getElementById("blog-bottom-nav").style.display = 'none';
     }
   }
 

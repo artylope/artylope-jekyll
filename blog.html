@@ -6,6 +6,10 @@ pagination:
 
 <section id="blog">
       <div id="sidebar">
+        <div id="profile">
+          <a href="{{site.baseurl}}/blog.html"><img src="{{site.baseurl}}/img/profile.png" /></a>
+          <a href="{{site.baseurl}}/blog.html"><h1>Artylope's Blog</h1></a>
+        </div>
         <div id="search">
           <form action="#" method="get">
             <label>Search</label>
@@ -78,7 +82,14 @@ pagination:
         <!-- <div id="search-results-container">
           <div class="keywords">Displaying 2 Posts with the keyword "<strong>search</strong>"</div>
         </div> -->
-        <ul id="search-results"></ul>
+        <div id="search-results">
+          <h1>Search Results</h1>
+          <p class="search-results-count">
+            Displaying <span id="search-results-count"></span> Posts
+          </p>
+          <ul id="search-results-list">
+          </ul>
+        </div>
         <div id="all-posts">
         {% for post in paginator.posts %}
         <div class="blog-post">
@@ -92,7 +103,7 @@ pagination:
         {% endfor %}
         </div>
         {% if paginator.total_pages > 1 %}
-        <div class="blog-bottom-nav">
+        <div id="blog-bottom-nav">
             {% if paginator.previous_page %}
           <div class="nav-left"><a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">← Newer Posts</a></div>
           {% endif %}
