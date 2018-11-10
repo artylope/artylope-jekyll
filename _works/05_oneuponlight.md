@@ -95,4 +95,4 @@ Here are some screenshots from the game.
 I also made the landing page for the game using <a href="https://foundation.zurb.com/">Foundation framework</a>.
 
 # Final Thoughts #
-Making One Upon Light was one of the more artistic endeavour that I have attempted. I was able to apply design principles at a more visceral level. How can we lead a player through the game level and interface with a pure monochrome palette. How can we surprise the player as well as communicate clearly which are safe paths and where are the danger zones. It was a rewarding experience for me as an artist/designer albeit the niche target audience.
+Making One Upon Light was one of the more artistic endeavour that I have attempted. I was able to apply design principles at a more visceral level. How can we lead a player through the game level and interface with a pure monochrome palette. How can we surprise the player as well as communicate clearly which are safe paths and where are the danger zones. It was a rewarding experience for me as an artist/designer.

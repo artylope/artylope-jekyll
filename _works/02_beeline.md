@@ -13,12 +13,71 @@ year: 2014 - Present
 role: Lead Designer. User Research, Prototyping, Wireframing, User Testing, User Interface Design, Trial Set Up, Product Strategy, Product Management
 ---
 
-# Overview #
-## The Problem ##
+# The Problem #
+  The daily commute on the public transport can get stressful for some. We were interested to find out if on-demand buses could be an answer to the problem. The data scientists in my team analysed and visualised the EZLink data. Pockets of underserved areas surfaced. The heat map below shows that commuters staying in the red zones take much longer time to travel from their home to anywhere in Singapore during the peak hours. We see this as an opportunity for express buses to run.
 
-  Since the 1980s, motorists in Singapore who park their vehicles in public car parks, have to tear pre-paid paper coupons to pay for parking. Many of the car parks have since implemented the electronic gantries (aka Electronic Parking System EPS). However, there are about a thousand car parks in Singapore that still require motorists to use parking coupons instead. These could be the roadside parking lots or the smaller carparks that does not warrant the high cost of installing and long term maintenance of the EPS. Motorists need to stock up coupons and tear many pieces if they were to park for a long period of time. If they want to extend parking, they will have to run back to their vehicle to tear more coupons.
+  <div><img src="/img/beeline_heatmap.png"></div>
+###### Commuters staying in the red zones take the most time to travel during the peak hour. ######
 
-  We wanted to develop a digital parking system that can replace the paper coupons, to give citizens the convenience of being able to pay for parking easily and extend parking remotely.
+# The Solution #
+In August 2015, we released the Beeline app that allows users to book tickets on express bus routes. During the 3 years, Beeline is developed into a suite of tools for transport companies to improve commuter experience. Major innovation includes public route suggestions and clustering capability, ticket booking, bus tracking and monitoring, and a "crowdstarting" mechanism to activate new bus routes.
 
-  <div><img src="/img/parking_problem.png"></div>
-###### what staying over at a friend's place will make of your car's dashboard ######
+Beeline Suite of Tools:
+
+- Commuter App for ticket booking, tracking buses and making suggestions
+- Bus Driver App for reporting location
+- Admin Portal for operations, finance and reporting purpose
+- Monitoring tool for real time monitoring of bus fleet
+- Analytics Tool for bus planning based on suggestions
+
+I will be describing the development journey below.
+
+<div><img src="/img/beeline_suite"></div>
+###### Beeline Suite of Tools ######
+
+# My Role #
+Lead Designer. User Research, Prototyping, Wireframing, User Testing, User Interface Design, Trial Set Up, Product Strategy, Product Management (during 1st version of the product)
+
+# The Team #
+Many people worked on Beeline over the course of 3 years. But at any one time, there is 1 Product Manager, 3 Developers and 1 Designer. I worked on this project as the lead designer since its inception and through all the different phases. There has been 2 major product revamps during the 3 year. The team had to do marketing, operations and training at times due to the nature of the product.
+
+# Where to run the buses #
+
+# Who will take the buses #
+
+# Getting bus drivers up to speed #
+
+# Digitising Ops and Admin #
+
+# Beeline Version 1: Just get a service running #
+
+# The morning rush #
+
+# The life cycle of a bus route #
+
+# The future of mobility #
+
+# Beeline Version 2: Modularising Beeline System #
+
+# Case Study 1: Shuttle to the Zoo #
+
+# Case Study 2: Beeline Express Routes during peak hours #
+
+# Case Study 3: Beeline Lite Routes #
+
+# Suggestions is no longer enough #
+
+# Beeline Version 3: Take it to another level #
+
+# Improving Route discovery #
+
+# Closing the suggestion to crowdstart feedback loop #
+
+# Optimising experience for the regular customer #
+
+# Reception #
+Currently, Beeline runs 200 express bus routes monthly and is adopted by major companies (e.g. Grab, SMRT, Comfort Delgro, JTC, Wildlife Reserve Singapore) to sell tickets and monitor their fleet. As of Oct 2018, it has 50k monthly active users.
+
+
+# Final Thoughts #
+ Beeline started as an experiment to prototype on-demand buses. Although this current version of Beeline is far from being truly on-demand, it provided a way for commuters to start their own bus routes - a glimpse into what the future of mobility can be. As a designer, it was a great opportunity for me to be able to dream and create a product and service from scratch, and carried it through all the way up till service design and delivery.
