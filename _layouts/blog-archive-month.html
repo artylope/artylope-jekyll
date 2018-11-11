@@ -1,7 +1,5 @@
 ---
-layout: default
-pagination:
-  enabled: true
+layout: blog
 ---
 
 <section id="blog">
@@ -36,9 +34,6 @@ pagination:
               <li><a href="#">Tag Label</a></li>
               <li><a href="#">Tag Label</a></li>
               <li><a href="#">Tag Label</a></li>
-              {% for tags in page.tags %}
-                <li>{{ tags }}</li>
-              {% endfor %}
             </ul>
           </div>
         </div>
@@ -76,27 +71,17 @@ pagination:
           </ul>
         </div>
         <div id="all-posts">
-        {% for post in paginator.posts %}
-        <div class="blog-post">
-          <h1><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h1>
-          <div class="post-date">Published on {{ post.date | date: '%d %B %Y' }} by {{post.author}}</div>
-          <div class="blog-post-content">
-            {{post.content}}
-            <div class="tags">in {{post.tags}}</div>
-          </div>
+          <h2>Archive of posts from {{ page.date | date: "%B %Y" }}</h2>
+          <ul class="posts">
+          {% for post in page.posts %}
+            <li>
+              <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+          </ul>
+
         </div>
-        {% endfor %}
-        </div>
-        {% if paginator.total_pages > 1 %}
-        <div id="blog-bottom-nav">
-            {% if paginator.previous_page %}
-          <div class="nav-left"><a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">← Newer Posts</a></div>
-          {% endif %}
-          {% if paginator.next_page %}
-          <div class="nav-right"><a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older Posts →</a></div>
-          {% endif %}
-        </div>
-          {% endif %}
       </div>
     </section>
 
