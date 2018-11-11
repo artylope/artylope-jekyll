@@ -39,21 +39,30 @@ I will be describing the development journey below.
 Lead Designer. User Research, Prototyping, Wireframing, User Testing, User Interface Design, Trial Set Up, Product Strategy, Product Management (during 1st version of the product)
 
 # The Team #
-Many people worked on Beeline over the course of 3 years. But at any one time, there is 1 Product Manager, 3 Developers and 1 Designer. I worked on this project as the lead designer since its inception and through all the different phases. There has been 2 major product revamps during the 3 year. The team had to do marketing, operations and training at times due to the nature of the product.
+Many people worked on Beeline over the course of 3 years. But at any one time, there is 1 Product Manager, 3 Developers and 1 Designer. I worked on this project as the lead designer since its inception and through all the different phases. There has been 2 major product revamps during the 3 year. The team had to do marketing, customer support, operations and training at times due to the nature of the product.
 
 # Where to run the buses #
+Public transport commute involves transfers. Savings in travelling time if shuttle bus runs. Enough people travelling in the same 15-30 mins windows
+<div><img src="/img/beeline_ondemandbusroutes"></div>
+###### Beeline Suite of Tools ######
 
 # Who will take the buses #
+Even though the ezLink data showed that there was demand for certain routes during the morning peak, there was no way we could reached out directly to these people and we were not sure if they will be interested to switch shuttle bus costing $5-6 per trip. We put out a site to collect route suggestions and emails to compare with our potential route data.
+
+We also tried putting out flyers
 
 # Getting bus drivers up to speed #
 
 # Digitising Ops and Admin #
 
 # Beeline Version 1: Just get a service running #
+user testing and interview
 
 # The morning rush #
+monitoring tool
 
 # The life cycle of a bus route #
+life cycle of a bus route
 
 # The future of mobility #
 
