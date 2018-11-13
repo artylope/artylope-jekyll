@@ -592,9 +592,6 @@ header {
     } */ }
     #main-content #search-results h1 {
       font-size: 2.5em; }
-  #main-content #post-meta p {
-    text-align: right;
-    font-size: .9em; }
   #main-content #blog-bottom-nav {
     display: flex;
     flex-direction: row;
@@ -607,6 +604,10 @@ header {
     #main-content #blog-bottom-nav .nav-right {
       text-align: right;
       margin-left: auto; }
+
+#post-meta p {
+  text-align: right;
+  font-size: .9em; }
 
 #sidebar {
   display: none;

@@ -34,13 +34,6 @@
   }
 
 
-  #post-meta{
-    p{
-      text-align: right;
-      font-size: .9em;
-    }
-  }
-
   #blog-bottom-nav{
     display: flex;
     flex-direction: row;
@@ -55,6 +48,13 @@
       text-align: right;
       margin-left: auto;
     }
+  }
+}
+
+#post-meta{
+  p{
+    text-align: right;
+    font-size: .9em;
   }
 }
 

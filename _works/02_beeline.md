@@ -39,7 +39,7 @@ I will be describing the development journey below.
 Lead Designer. User Research, Prototyping, Wireframing, User Testing, User Interface Design, Trial Set Up, Product Strategy, Product Management (during 1st version of the product)
 
 # The Team #
-Many people worked on Beeline over the course of 3 years. But at any one time, there is 1 Product Manager, 3 Developers and 1 Designer. I worked on this project as the lead designer since its inception and through all the different phases. There has been 2 major product revamps during the 3 year. The team had to do marketing, customer support, operations and training at times due to the nature of the product.
+Many people worked on Beeline over the course of 3 years. But at any one time, there is 1 Product Manager, 3 Developers and 1 Designer. I worked on this project as the lead designer since its inception and through all the different phases. There have been 2 major product revamps during the 3 year. The team had to do marketing, customer support, operations and training at times due to the nature of the product.
 
 # Where to run the buses #
 Public transport commute involves transfers. Savings in travelling time if shuttle bus runs. Enough people travelling in the same 15-30 mins windows
@@ -52,10 +52,11 @@ Even though the ezLink data showed that there was demand for certain routes duri
 We also tried putting out flyers
 
 # Getting bus drivers up to speed #
+Unlike drivers in the private hire industry, bus drivers are not used to having their locations being tracked. They run on fixed routes and tend to be more adverse to change. We developed a driver app and continue iterating with them. As some of the drivers only know Chinese, we introduce a Chinese mode in the driver app as well. They check in using the app
 
 # Digitising Ops and Admin #
 
-# Beeline Version 1: Just get a service running #
+# Beeline Version 1: Get a bus running #
 user testing and interview
 
 # The morning rush #
@@ -89,4 +90,4 @@ Currently, Beeline runs 200 express bus routes monthly and is adopted by major c
 
 
 # Final Thoughts #
- Beeline started as an experiment to prototype on-demand buses. Although this current version of Beeline is far from being truly on-demand, it provided a way for commuters to start their own bus routes - a glimpse into what the future of mobility can be. As a designer, it was a great opportunity for me to be able to dream and create a product and service from scratch, and carried it through all the way up till service design and delivery.
+ Beeline started as an experiment to prototype on-demand buses. Although this current version of Beeline is far from being truly on-demand, it bridge a jarring gap that was lacking in the private bus industry 3 years ago- the need for digitisation to improve service delivery. More importantly, it provided commuters a way to start their own bus routes - a glimpse into what the future of mobility can be. As a designer, it was a great opportunity for me to be able to dream and create a product and service from scratch, and carried it through all the way up to its fruition.

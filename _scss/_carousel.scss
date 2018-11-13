@@ -1,0 +1,35 @@
+.main-carousel {
+  margin-top: 3em;
+margin-bottom: 5em;
+  /* margin: 0 auto; */
+}
+
+.carousel-cell {
+  width: 66%;
+  max-height: 565px;;
+  margin-right: 10px;
+  border-radius: 5px;
+  /* counter-increment: gallery-cell; */
+  img{
+    margin-top: 0;
+  }
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  /* content: counter(gallery-cell); */
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+.flickity-page-dots{
+  position: relative !important;
+  text-align: center !important;
+}
+
+.flickity-prev-next-button{
+  height: 62px;
+}

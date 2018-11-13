@@ -43,7 +43,7 @@ Lead Designer. User Research, Prototyping, Wireframing, User Testing, User Inter
 # Interviewing the users #
 I prepared the following interview questions and interviewed several people who drive and uses the parking coupons. These are what they say, think and do.
 
-<div class="main-carousel" data-flickity='{ "freeScroll": true }'>
+<div class="main-carousel" style="height: 560px;" data-flickity='{ "freeScroll": true }'>
   <div class="carousel-cell"><img src="/img/parking_userinterviewguide.png"></div>
   <div class="carousel-cell"><img src="/img/parking_user1.png"></div>
   <div class="carousel-cell"><img src="/img/parking_user2.png"></div>
@@ -51,20 +51,6 @@ I prepared the following interview questions and interviewed several people who 
   <div class="carousel-cell"><img src="/img/parking_user4.png"></div>
 </div>
 
-<!-- <div><img src="/img/parking_userinterviewguide.png"></div>
-###### Interview Guide ######
-
-<div><img src="/img/parking_user1.png"></div>
-###### Interview: User 1 ######
-
-<div><img src="/img/parking_user2.png"></div>
-###### Interview: User 2 ######
-
-<div><img src="/img/parking_user3.png"></div>
-###### Interview: User 3 ######
-
-<div><img src="/img/parking_user4.png"></div>
-###### Interview: User 4 ###### -->
 
 # Mapping out the user journey #
 With that information, I plotted this customer journey map to visualise the highlights and pain points of a motorist's parking journey. Looking for parking and paying for parking create the most hassle for the user.
@@ -73,41 +59,30 @@ With that information, I plotted this customer journey map to visualise the high
 # What are the other cities doing about this problem? #
 Many cities have tried to address the parking problem. Some of these are initiated by the local governments, while others are solutions from the carpark owners. I collected the screenshots and compared the features that these solutions have.
 
-<div><img src="/img/parking_us_parker.png"></div>
-###### Screenshots from Parker App from US ######
-
-<div><img src="/img/parking_uk_paybyphone.png"></div>
-###### Screenshots from Pay By Phone from UK ######
-
-
-<div><img src="/img/parking_competitiveanalysis.png"></div>
-###### Competitive Analysis of Parking Apps ######
-
-# Opportunity Space #
-Digitising parking will not only benefit the citizens in terms of looking and paying for parking. The government will also have data for actual car park utilisation and this can be used for better resource planning.
-
-<div><img src="/img/parking_opportunityspace.png"></div>
-
-# 1st Prototype and Guerilla Testing #
-With all the discovery and learning from above, I made this prototype in Sketch and InVision and brought it out for some Guerilla testing based on designed tasks scenarios.
-<div><img style="max-width:360px;" src="/img/parking_1stprototype.gif"></div>
-###### Early Prototype done in Sketch and InVision ######
-
-<div><img style="max-width:360px;" src="/img/parking_1stprototype.gif"></div>
-###### Task Scenarios ######
-The developers made a working prototype with a simple backend for pitching to the public agencies who manages the carparks. Our goal here is to convince them to let us trial the parking app at some car parks with actual users and enforcement officers. We removed the need for users to login at this point.
+<div class="main-carousel" style="height: 560px;" data-flickity='{ "freeScroll": true, "lazyLoad": true }'>
+  <div class="carousel-cell"><img data-flickity-lazyload="/img/parking_competitiveanalysis.png"></div>
+  <div class="carousel-cell"><img data-flickity-lazyload="/img/parking_us_parker.png"></div>
+  <div class="carousel-cell"><img data-flickity-lazyload="/img/parking_uk_paybyphone.png"></div>
+</div>
 
 # Enthography Study with Enforcement Officer #
 To help us understand the enforcement process and we can integrate with the enforcement systems, we walked the ground with the enforcement officer. She shows us the electronic handheld device (EHT) that she uses to check for season parking information. She also uses it to issue summon.
 <div><img src="/img/parking_ethnographystudy.png"></div>
 ###### The development team walked the grounds with the enforcement officer. ######
 
+# Prototype and Guerilla Testing #
+With all the discovery and learning from above, I made a prototype in Sketch and InVision and brought it out for some guerrilla testing based on designed tasks scenarios. The following mock up is a few iterations after these testings.
+<div><img style="max-width:360px;" src="/img/parking_mockup.gif"></div>
+###### Prototype done in Sketch and InVision ######
+
+Based on the design, the developers made a working prototype with a simple backend and Stripe test mode payment so that we can work with URA and HDB to do on the ground testing with actual users at a real carpark.
 
 # Alpha Trial #
-<div><iframe style="width:90%; height:675px;" src="//e.issuu.com/embed.html#35262208/65455453" frameborder="0" allowfullscreen></iframe></div>
+Working with the agencies that manages car parks, we set up two carparks and invited 50 public servants to try the parking app. We also trained enforcers to use the enforcer app so that they can enforce the cars that paid for parking via the parking app.
 
 # Identifying Feature Priorities #
-<div><img src="/img/parking_featurepriority.png"></div>
+Learning from the Alpha experience, we used the following Effort vs Benefit matrix to help us determine what to focus on.
+<div><img class="inner" src="/img/parking_featurepriority.png"></div>
 ###### Plotting all features on a 2x2 matrix to help determine what to focus on. ######
 
 # Key Product Decisions #
