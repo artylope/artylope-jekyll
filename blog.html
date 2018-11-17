@@ -21,8 +21,8 @@ pagination:
           <h2>Recent Posts</h2>
           <div class="sidebar-links">
             <ul>
-              {% for blog in site.posts limit:5 %}
-              <li><a href="{{site.baseurl}}{{blog.url}}">{{blog.title}}</a></li>
+              {% for post in site.posts limit:5 %}
+              <li><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></li>
               {% endfor %}
             </ul>
           </div>
@@ -30,16 +30,9 @@ pagination:
         <div id="tags">
           <h2>Tags</h2>
           <div class="sidebar-links">
-            <ul>
-              <li><a href="#">Tag Label</a></li>
-              <li><a href="#">Tag Label</a></li>
-              <li><a href="#">Tag Label</a></li>
-              <li><a href="#">Tag Label</a></li>
-              <li><a href="#">Tag Label</a></li>
-              {% for tags in page.tags %}
-                <li>{{ tags }}</li>
+              {% for tag in site.tags %}
+              <span><a href="{{site.baseurl}}/blog/tag/{{ tag[0] }}/">{{ tag[0] }},</a></span>
               {% endfor %}
-            </ul>
           </div>
         </div>
         <div id="archives">

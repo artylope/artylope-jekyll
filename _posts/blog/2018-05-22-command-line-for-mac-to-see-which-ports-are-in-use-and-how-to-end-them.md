@@ -2,7 +2,7 @@
 layout: blog-post
 title: Command line for Mac to see which ports are in use and how to end them
 category: blog
-tags: code
+tags: code random
 author: Ang Yi Xin
 ---
 

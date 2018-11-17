@@ -2,7 +2,7 @@
 layout: blog-post
 title: Learning Vue
 category: blog
-tags: code
+tags: code random
 author: Ang Yi Xin
 ---
 
