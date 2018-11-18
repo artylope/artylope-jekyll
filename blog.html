@@ -75,7 +75,7 @@ pagination:
           <div class="post-date">Published on {{ post.date | date: '%d %B %Y' }} by {{post.author}}</div>
           <div class="blog-post-content">
             {{post.content}}
-            <div class="tags">in {{post.tags}}</div>
+            <div class="tags">in {{post.tags | join: ', ' }}</div>
           </div>
         </div>
         {% endfor %}

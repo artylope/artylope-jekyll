@@ -1,0 +1,51 @@
+<div id="sidebar">
+  <div id="profile">
+    <a href="{{site.baseurl}}/blog.html"><img src="{{site.baseurl}}/img/profile.png" /></a>
+    <a href="{{site.baseurl}}/blog.html"><h1>Artylope's Blog</h1></a>
+  </div>
+  <div id="search">
+    <form action="#" method="get">
+      <label>Search</label>
+      <input type="text" id="search-box" name="query" placeholder="Search...">
+      <input type="submit" class="submit" value="search">
+    </form>
+  </div>
+  <div id="recent-posts">
+    <h2>Recent Posts</h2>
+    <div class="sidebar-links">
+      <ul>
+        {% for post in site.posts limit:5 %}
+        <li><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div id="tags">
+    <h2>Tags</h2>
+    <div class="sidebar-links">
+        {% for tag in site.tags %}
+        <span><a href="{{site.baseurl}}/blog/tag/{{ tag[0] }}/">{{ tag[0] }},</a></span>
+        {% endfor %}
+    </div>
+  </div>
+  <div id="archives">
+    <h2>Archives</h2>
+    <div class="sidebar-links">
+      <ul>
+      {% for blog in site.posts %} {% unless blog.next %}
+      <li>
+        <a href="{{site.baseurl}}/blog/{{ blog.date | date: '%Y' }}/{{ blog.date | date: '%m' }}">{{ blog.date | date: '%B %Y' }}</a>
+      </li>
+      {% else %}
+        {% capture year %}{{ blog.date | date: '%Y %b' }}{% endcapture %} {% capture nyear %}{{ blog.next.date | date: '%Y %b' }}{% endcapture %}
+        {% if year != nyear %}
+      <li>
+        <a href="{{site.baseurl}}/blog/{{ blog.date | date: '%Y' }}/{{ blog.date | date: '%m' }}">{{ blog.date | date: '%b %Y' }}</a>
+      </li>
+      {% endif %}
+      {% endunless %}
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
