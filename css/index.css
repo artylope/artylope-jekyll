@@ -412,10 +412,10 @@ header {
   background-size: cover;
   height: 500px; }
   header .container#greetings h1 {
-    font-size: 3em;
+    font-size: 2.5em;
     line-height: 1.2em;
     padding-left: 10px;
-    padding-top: 150px;
+    padding-top: 120px;
     color: white; }
 
 #works {
@@ -452,7 +452,7 @@ header {
         padding-top: 75%; }
     #works .card .info {
       padding: 1.5em;
-      min-height: 80px; }
+      min-height: 120px; }
       #works .card .info h1 {
         position: relative;
         float: left;
@@ -483,10 +483,19 @@ header {
       transform: translate(0px, -5px);
       box-shadow: rgba(45, 45, 45, 0.1) 0 2px 2px, rgba(49, 49, 49, 0.1) 0 4px 4px; }
   @media only screen and (min-width: 48em) {
+    #works .container {
+      width: 45rem; }
+    #works#greetings h1 {
+      font-size: 3em; }
     #works .col-md-6 {
       flex-basis: 50%;
       max-width: 50%; } }
+  @media only screen and (min-width: 64em) {
+    #works .container {
+      width: 61rem; } }
   @media only screen and (min-width: 75em) {
+    #works .container {
+      width: 72rem; }
     #works .col-lg-4 {
       flex-basis: 33.33333333%;
       max-width: 33.33333333%; } }

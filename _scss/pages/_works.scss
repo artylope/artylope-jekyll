@@ -7,10 +7,10 @@ header {
     .container{
       &#greetings{
         h1{
-          font-size: 3em;
+          font-size: 2.5em;
           line-height: 1.2em;
           padding-left: 10px;
-          padding-top: 150px;
+          padding-top: 120px;
           color: white;
         }
       }
@@ -67,7 +67,7 @@ header {
 
       .info {
         padding: 1.5em;
-        min-height: 80px;
+        min-height: 120px;
 
         h1 {
           position: relative;
@@ -112,13 +112,30 @@ header {
       box-shadow: rgba(45, 45, 45, 0.1) 0 2px 2px, rgba(49, 49, 49, 0.1) 0 4px 4px;
     }
   }
-  @media only screen and (min-width: 48em) {
+
+  @media only screen and (min-width: 48em){
+    .container {
+      width: 45rem;
+    }
+    &#greetings{
+      h1{
+        font-size: 3em;
+      }
+    }
     .col-md-6 {
       flex-basis: 50%;
       max-width: 50%;
     }
   }
-  @media only screen and (min-width: 75em) {
+  @media only screen and (min-width: 64em){
+    .container {
+      width: 61rem;
+    }
+  }
+  @media only screen and (min-width: 75em){
+    .container {
+      width: 72rem;
+    }
     .col-lg-4 {
       flex-basis: 33.33333333%;
       max-width: 33.33333333%;
