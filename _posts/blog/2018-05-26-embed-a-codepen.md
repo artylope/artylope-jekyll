@@ -10,7 +10,7 @@ embed a codepen
 
 <div class="embed">
 <pre class="codepen" data-height="470" data-type="result" data-href="xzVqGK" data-user="onestaryx" data-safe="true"> <code> </code> <https://codepen.io/onestaryx/pen/xzVqGK/">Check out this Pen!</a> </pre>
-<script src="http://codepen.io/assets/embed/ei.js"> </script>
+<script src="https://codepen.io/assets/embed/ei.js"> </script>
 </div>
 
 and type random code
