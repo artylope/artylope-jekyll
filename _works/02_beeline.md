@@ -4,9 +4,9 @@ title: Beeline.sg
 category: works
 permalink: "/works/beeline.html"
 description: Empowering commuters to solve their transport woes through crowdsourcing.
-thumbnail: "/img/works_beeline_thumbnail.png"
+thumbnail: "/img/works_beeline/works_beeline_thumbnail.png"
 locked: false
-hero: "/img/works_beeline_hero.png"
+hero: "/img/works_beeline/works_beeline_hero.png"
 owner: GovTech Singapore
 platform: iOS, Android, Web
 year: 2014 - Present
@@ -16,7 +16,7 @@ role: Lead Designer. User Research, Prototyping, Wireframing, User Testing, User
 # The Problem #
   The daily commute on the public transport can get stressful for some. We were interested to find out if on-demand buses could be an answer to the problem. The data scientists in my team analysed and visualised the EZLink data. Pockets of underserved areas surfaced. The heat map below shows that commuters staying in the red zones take much longer time to travel from their home to anywhere in Singapore during the peak hours. We see this as an opportunity for express buses to run.
 
-  <div><img src="/img/beeline_heatmap.png"></div>
+  <div><img src="/img/works_beeline/beeline_heatmap.png"></div>
 ###### Commuters staying in the red zones take the most time to travel during the peak hour. ######
 
 # The Solution #
@@ -32,7 +32,7 @@ Beeline Suite of Tools:
 
 I will be describing the development journey below.
 
-<div><img src="/img/beeline_suite"></div>
+<div><img src="/img/works_beeline/beeline_suite"></div>
 ###### Beeline Suite of Tools ######
 
 # My Role #
@@ -43,7 +43,7 @@ Many people worked on Beeline over the course of 3 years. But at any one time, t
 
 # Where to run the buses #
 Public transport commute involves transfers. Savings in travelling time if shuttle bus runs. Enough people travelling in the same 15-30 mins windows
-<div><img src="/img/beeline_ondemandbusroutes"></div>
+<div><img src="/img/works_beeline/beeline_ondemandbusroutes"></div>
 ###### Beeline Suite of Tools ######
 
 # Who will take the buses #

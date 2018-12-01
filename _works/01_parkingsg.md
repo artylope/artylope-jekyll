@@ -4,9 +4,9 @@ title: Parking.sg
 category: works
 permalink: "/works/parkingsg.html"
 description: Getting rid of the paper parking coupons with a mobile app
-thumbnail: "/img/works_parking_thumbnail.png"
+thumbnail: "/img/works_parking/works_parking_thumbnail.png"
 locked: false
-hero: "/img/works_parking_hero.png"
+hero: "/img/works_parking/works_parking_hero.png"
 owner: GovTech Singapore
 platform: iOS, Android
 year: 2016 - Present
@@ -18,7 +18,7 @@ role: Lead Designer. User Research, Prototyping, Wireframing, User Testing, User
 
   We wanted to develop a digital parking system that can replace the paper coupons, to give citizens the convenience of being able to pay for parking easily and extend parking remotely.
 
-  <div><img src="/img/parking_problem.png"></div>
+  <div><img src="/img/works_parking/parking_problem.png"></div>
 ###### what staying over at a friend's place will make of your car's dashboard ######
 
 # The Solution #
@@ -27,7 +27,7 @@ role: Lead Designer. User Research, Prototyping, Wireframing, User Testing, User
   2. Extend parking session
   3. Get refunds when you end the session early
 
-  <div><img src="/img/parking_features.png"></div>
+  <div><img src="/img/works_parking/parking_features.png"></div>
 
   How did we arrive at this solution? I will cover the highlights of the journey from discovery to production.
 
@@ -44,35 +44,35 @@ Lead Designer. User Research, Prototyping, Wireframing, User Testing, User Inter
 I prepared the following interview questions and interviewed several people who drive and uses the parking coupons. These are what they say, think and do.
 
 <div class="main-carousel" style="height: 560px;" data-flickity='{ "freeScroll": true }'>
-  <div class="carousel-cell"><img src="/img/parking_userinterviewguide.png"></div>
-  <div class="carousel-cell"><img src="/img/parking_user1.png"></div>
-  <div class="carousel-cell"><img src="/img/parking_user2.png"></div>
-  <div class="carousel-cell"><img src="/img/parking_user3.png"></div>
-  <div class="carousel-cell"><img src="/img/parking_user4.png"></div>
+  <div class="carousel-cell"><img src="/img/works_parking/parking_userinterviewguide.png"></div>
+  <div class="carousel-cell"><img src="/img/works_parking/parking_user1.png"></div>
+  <div class="carousel-cell"><img src="/img/works_parking/parking_user2.png"></div>
+  <div class="carousel-cell"><img src="/img/works_parking/parking_user3.png"></div>
+  <div class="carousel-cell"><img src="/img/works_parking/parking_user4.png"></div>
 </div>
 
 
 # Mapping out the user journey #
 With that information, I plotted this customer journey map to visualise the highlights and pain points of a motorist's parking journey. Looking for parking and paying for parking create the most hassle for the user.
-<div><img src="/img/parking_customerjourney.png"></div>
+<div><img src="/img/works_parking/parking_customerjourney.png"></div>
 
 # What are the other cities doing about this problem? #
 Many cities have tried to address the parking problem. Some of these are initiated by the local governments, while others are solutions from the carpark owners. I collected the screenshots and compared the features that these solutions have.
 
 <div class="main-carousel" style="height: 560px;" data-flickity='{ "freeScroll": true, "lazyLoad": true }'>
-  <div class="carousel-cell"><img data-flickity-lazyload="/img/parking_competitiveanalysis.png"></div>
-  <div class="carousel-cell"><img data-flickity-lazyload="/img/parking_us_parker.png"></div>
-  <div class="carousel-cell"><img data-flickity-lazyload="/img/parking_uk_paybyphone.png"></div>
+  <div class="carousel-cell"><img data-flickity-lazyload="/img/works_parking/parking_competitiveanalysis.png"></div>
+  <div class="carousel-cell"><img data-flickity-lazyload="/img/works_parking/parking_us_parker.png"></div>
+  <div class="carousel-cell"><img data-flickity-lazyload="/img/works_parking/parking_uk_paybyphone.png"></div>
 </div>
 
 # Enthography Study with Enforcement Officer #
 To help us understand the enforcement process and we can integrate with the enforcement systems, we walked the ground with the enforcement officer. She shows us the electronic handheld device (EHT) that she uses to check for season parking information. She also uses it to issue summon.
-<div><img src="/img/parking_ethnographystudy.png"></div>
+<div><img src="/img/works_parking/parking_ethnographystudy.png"></div>
 ###### The development team walked the grounds with the enforcement officer. ######
 
 # Prototype and Guerilla Testing #
 With all the discovery and learning from above, I made a prototype in Sketch and InVision and brought it out for some guerrilla testing based on designed tasks scenarios. The following mock up is a few iterations after these testings.
-<div><img style="max-width:360px;" src="/img/parking_mockup.gif"></div>
+<div><img style="max-width:360px;" src="/img/works_parking/parking_mockup.gif"></div>
 ###### Prototype done in Sketch and InVision ######
 
 Based on the design, the developers made a working prototype with a simple backend and Stripe test mode payment so that we can work with URA and HDB to do on the ground testing with actual users at a real carpark.
@@ -82,11 +82,11 @@ Working with the agencies that manages car parks, we set up two carparks and inv
 
 # Identifying Feature Priorities #
 Learning from the Alpha experience, we used the following Effort vs Benefit matrix to help us determine what to focus on.
-<div><img class="inner" src="/img/parking_featurepriority.png"></div>
+<div><img class="inner" src="/img/works_parking/parking_featurepriority.png"></div>
 ###### Plotting all features on a 2x2 matrix to help determine what to focus on. ######
 
 # Key Product Decisions #
-<a href="https://ibb.co/jHv8Cf"><img src="https://preview.ibb.co/chfKJL/parking-customerjourney.png" alt="parking-customerjourney" border="0"></a>
+
 # Beta Trial #
 
 # UI Improvements #

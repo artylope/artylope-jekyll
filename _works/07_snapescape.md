@@ -4,9 +4,9 @@ title: Snap Escape
 category: works
 permalink: "/works/snapescape.html"
 description: Swing to your friends' rescue in this fast-paced game set in the prehistoric times.
-thumbnail: "/img/works_snapescape_thumbnail.png"
+thumbnail: "/img/works_se/works_snapescape_thumbnail.png"
 locked: false
-hero: "/img/works_parking_hero.png"
+hero: "/img/works_se/works_snapescape_hero.png"
 owner: GovTech Singapore
 platform: iOS, Android
 year: 2016 - Present
@@ -14,78 +14,86 @@ role: Lead Designer. User Research, Prototyping, Wireframing, User Testing, User
 ---
 
 # Overview #
-## The Problem ##
+One Upon Light is conceptualised and developed during the time I was at SUTD Game Lab. One Upon Light is an indie puzzle game where players must manipulate their surroundings in order to **stay out of the light** and **remain in the shadows**.
 
-  Since the 1980s, motorists in Singapore who park their vehicles in public car parks, have to tear pre-paid paper coupons to pay for parking. Many of the car parks have since implemented the electronic gantries (aka Electronic Parking System EPS). However, there are about a thousand car parks in Singapore that still require motorists to use parking coupons instead. These could be the roadside parking lots or the smaller carparks that does not warrant the high cost of installing and long term maintenance of the EPS. Motorists need to stock up coupons and tear many pieces if they were to park for a long period of time. If they want to extend parking, they will have to run back to their vehicle to tear more coupons.
+<div><img class="inner" src="/img/works_oul/oul_gamemechanic.gif"></div>  
+###### Stay out of the light and remain in the shadow! ######
 
-  We wanted to develop a digital parking system that can replace the paper coupons, to give citizens the convenience of being able to pay for parking easily and extend parking remotely.
+# My Role #
+Game Artist. Game Art, User Interface Design, User Experience Design, Character Design, Concept Art, 2D Textures, Environment Design, Website Design and Development, Video Trailer Production and Editing.
 
-  <div><img src="/img/parking_problem.png"></div>
-###### what staying over at a friend's place will make of your car's dashboard ######
+There were 2 artists. I focused more on the 2D elements (e.g. user interface, model textures, concept art etc), video and website while the other artist, Simon Strauss, focused more on 3D models, in game visual effects and animation.
 
-## The Solution ##
-  In October 2017, we released Parking.sg, a mobile app that allows motorists in Singapore pay for parking charges using their mobile phones at all coupon-based public car parks. The app has these 3 main features.
-  1. Automatically calculate parking fees.
-  2. Extend parking session
-  3. Get refunds when you end the session early
+# The Team #
+Team of 7 people. 1 Game Designer, 2 Artists, 3 Programmers, 1 QA and an audio team.
 
-  <div><img src="/img/parking_features.png"></div>
+# Prototyping #
+During the early stage of development, we only knew we wanted a game that has to do with light and shadows, so  we needed to figure out what the game mechanics will be. We made different prototypes. Prototypes allow users to try out the game to see what works and what didn't. Here are some prototypes made by the Game Designer.
+<div><img class="inner" src="/img/works_oul/oul_01_Prototype_GameMechanic.jpg"></div>
+###### Paper prototyping ######
+<div><img class="inner" src="/img/works_oul/oul_02_LevelBlocking.jpg"></div>
+###### Blocking the level design ######
 
-  How did we arrive at this solution? I will cover the highlights of the journey from discovery to production.
+# Visual Development #
+The game is about avoiding lights and casting shadows to create paths. To support the gameplay, the visual contrast between light areas and shadow areas has to be strong enough to make it clear for the players between safe and danger zones. We used the monochrome style to avoid “noise” from colours and keep the focus on the elements of lights and shadows. This way, we can emphasise the importance and danger of the light,  
 
-# The Process #
-## Discovery ##
-### Empathy Mapping ###
-  I prepared the following interview questions and interviewed several people who drive and uses the parking coupons. These are what they say, think and do.
+I did the following concepts and art work.
 
-<div><img class="inner" src="/img/parking_userinterviewguide.png"></div>
-###### Interview Guide ######
+<div><img class="inner" src="/img/works_oul/oul_01_VisualTone.jpg"></div>
+###### Visual Concept of the monochrome style ######
+<div><img class="inner" src="/img/works_oul/oul_02_CharacterBehaviour.jpg"></div>
+###### Character Development ######
+<div><img class="inner" src="/img/works_oul/oul_03_EnvironmentProp.jpg"></div>
+###### Designing the Props ######
+<div><img class="inner" src="/img/works_oul/oul_04_EnvironmentBlueprint.jpg"></div>
+###### A key landmark in the game ######
+<div><img class="inner" src="/img/works_oul/oul_05_DeviceManual.jpg"></div>
+###### The character has a special smart watch ######
 
-<div><img class="inner" src="/img/parking_user1.png"></div>
-###### Interview: User 1 ######
+# User Testing #
+Here is a photo of a user playtesting the game. We conduct playtesting to validate if the game is fun and if any parts of the game makes it confusing for the user.
+<div><img class="inner" src="/img/works_oul/oul_06_casualconnecttesting.jpg"></div>
+###### Conducting a playtest ######
 
-<div><img class="inner" src="/img/parking_user2.png"></div>
-###### Interview: User 2 ######
+# User Interface Design #
+User interfaces for games tends to focus on visual storytelling. It must encapsulate the mood and style that the game has. However, usability is still important. The same principles like immediacy of feedback still applies. It must also be consistent throughout the game so that they don't have to re-learn concepts and controls.
 
-<div><img class="inner" src="/img/parking_user3.png"></div>
-###### Interview: User 3 ######
+I did the following UI design and assets.
 
-<div><img class="inner" src="/img/parking_user4.png"></div>
-###### Interview: User 4 ######
+<div><img class="inner" src="/img/works_oul/oul_03_Final_MenuUI_MenuUI_Levels.png"></div>
+###### The Game UI is designed to be like chapters in a book ######
+<div><img class="inner" src="/img/works_oul/oul_03_Final_MenuUI_Journal_02.png"></div>
+###### Clues are scattered in the UI ######
+<div><img class="inner" src="/img/works_oul/oul_03_Final_MenuUI_Journal_07.png"></div>
+###### Some foreshadowing of new elements in the game ######
+<div><img class="inner" src="/img/works_oul/oul_03_Final_MenuUI_Journal_17_SciencePapers.png"></div>
+###### Game UI tends to focus on visual storytelling ######
 
-### Customer Journey ###
-With that information, I plotted this customer journey map to visualise the highlights and pain points of a motorist's parking journey. Looking for parking and paying for parking create the most hassle for the user.
-<div><img src="/img/parking_customerjourney.png"></div>
+# Game Screenshots #
+Here are some screenshots from the game.
+<div><img class="inner" src="/img/works_oul/oul_03_Final_GameScreenshot01.png"></div>
+<div><img class="inner" src="/img/works_oul/oul_03_Final_GameScreenshot02.png"></div>
+<div><img class="inner" src="/img/works_oul/oul_03_Final_GameScreenshot03.png"></div>
+<div><img class="inner" src="/img/works_oul/oul_03_Final_GameScreenshot04.png"></div>
 
-### Competitive Analysis ###
-Many cities have tried to address the parking problem. Some of these are initiated by the local governments, while others are solutions from the carpark owners. I collected the screenshots and compared the features that these solutions have.
+# Awards #
+  **2015**  1st Runner-up for Digital Life Singapore Awards  *The Straits Times*
+  <br/>
+  **2015**  Best Made-In-Singapore Game Editor's Choice  *The Straits Times*
+<br/>
+  **2014**  Indie Prize Winner  *4Gamer.net*
+<br/>
+  **2014**  Leftfield Collection at EGX Rezzed  *Eurogamer*
+<br/>
+  **2013**  Independent Game Festival (China)  *UBM Tech*
 
-![Screenshots from a Parking App in City](https://via.placeholder.com/800x500)
-###### Screenshots from a Parking App in City ######
+<div class="container">
+<iframe width="700" height="395" src="https://www.youtube.com/embed/ZchVJG9cN7U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
 
-![Comparisons of Parking Apps](https://via.placeholder.com/800x500)
-###### Comparisons of Parking Apps ######
+# Website Design #
+I also made the landing page for the game using <a href="https://foundation.zurb.com/">Foundation framework</a>.
+<div><img class="inner" src="/img/works_oul/works_oul_website.png"></div>
+<div><img class="inner" src="/img/works_oul/Final_OneUponLightWebResponsive.jpg"></div>
 
-### Opportunity Space ###
-Digitising parking will not only benefit the citizens in terms of looking and paying for parking. The government will also have data for actual car park utilisation and this can be used for better resource planning.
-
-### Prototyping ###
-With all the discovery and learning from above, I made this prototype in Sketch and InVision and brought it out for some Guerilla testing.
-![Prototype](https://via.placeholder.com/800x500)
-###### Early Prototype done in Sketch and InVision ######
-### User Testing ###
-![User Tasks Scenario](https://via.placeholder.com/800x500)
-###### Based on these tasks, I tested with users and refined the prototype further ######
-
-The developers made a working prototype with a simple backend for pitching to the public agencies who manages the carparks. Our goal here is to convince them to let us trial the parking app at some car parks with actual users and enforcement officers.
-
-### Ethnography Study ###
-To help us understand the enforcement process and we can integrate with the enforcement systems, we walked the ground with the enforcement officers.
-![Walking the grounds with the enforcement officers](https://via.placeholder.com/800x500)
-###### The development team walked the grounds with the enforcement officers ######
-
-
-
-# Launch #
-
-##
+# Final Thoughts #
+Making One Upon Light was one of the more artistic endeavour that I have attempted. I was able to apply design principles at a more visceral level. How can we lead a player through the game level and interface with a pure monochrome palette. How can we surprise the player as well as communicate clearly which are safe paths and where are the danger zones. It was a rewarding experience for me as an artist/designer.
