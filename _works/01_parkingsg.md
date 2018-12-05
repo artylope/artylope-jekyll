@@ -14,6 +14,7 @@ role: Lead Designer. User Research, Prototyping, Wireframing, User Testing, User
 ---
 
 # The Problem #
+## Coupons are cumbersome ##
   Since the 1980s, motorists in Singapore who park their vehicles in public car parks, have to tear pre-paid paper coupons to pay for parking. Many of the car parks have since implemented the electronic gantries (aka Electronic Parking System EPS). However, there are about a thousand car parks in Singapore that still require motorists to use parking coupons instead. These could be the roadside parking lots or the smaller carparks that does not warrant the high cost of installing and long term maintenance of the EPS. Motorists need to stock up coupons and tear many pieces if they were to park for a long period of time. If they want to extend parking, they will have to run back to their vehicle to tear more coupons.
 
   We wanted to develop a digital parking system that can replace the paper coupons, to give citizens the convenience of being able to pay for parking easily and extend parking remotely.
@@ -32,10 +33,10 @@ role: Lead Designer. User Research, Prototyping, Wireframing, User Testing, User
   How did we arrive at this solution? I will cover the highlights of the journey from discovery to production.
 
 # My Role #
-Lead Designer. User Research, Prototyping, Wireframing, User Testing, User Interface Design, Trial Set Up, Product Strategy, Product Management
+Lead Designer. User Research, Prototyping, Wireframing, User Flows, User Testing, User Interface Design, Trial Set Up, Product Strategy, Product Management
 
 # The Team #
-8 people in total, 3-4 at any one time (i.e. 1 Product Manager, 2 Developers and 1 Designer) We also worked with public servants in car park operations at the various government agencies. A Visual Designer polish the UI before the final launch. I did the rest of the design work.
+8 people in total, 3-4 at any one time (i.e. 1 Product Manager, 2 Developers and 1 Designer) We also worked with public servants in car park operations at the various government agencies. I did most of the design work. Sarah Salim, a Visual Designer, polished the UI before the final launch.
 
 # Development Timeline
 10 months from prototype to full public launch in Oct 2017. Ongoing iteration and development there after.
@@ -75,24 +76,28 @@ With all the discovery and learning from above, I made a prototype in Sketch and
 <div><img style="max-width:360px;" src="/img/works_parking/parking_mockup.gif"></div>
 ###### Prototype done in Sketch and InVision ######
 
-Based on the design, the developers made a working prototype with a simple backend and Stripe test mode payment so that we can work with URA and HDB to do on the ground testing with actual users at a real carpark.
-
-# Alpha Trial #
-Working with the agencies that manages car parks, we set up two carparks and invited 50 public servants to try the parking app. We also trained enforcers to use the enforcer app so that they can enforce the cars that paid for parking via the parking app.
+Based on the design, we made a working prototype so that we can work with URA and HDB (the agencies that manages car parks) to do on the ground testing with actual users at a real carpark. For the trial, we invited public servants to try the parking app at designated car parks. We also trained enforcers to use the enforcer app so that they can enforce the cars that paid for parking via the parking app.
 
 # Identifying Feature Priorities #
-Learning from the Alpha experience, we used the following Effort vs Benefit matrix to help us determine what to focus on.
-<div><img class="inner" src="/img/works_parking/parking_featurepriority.png"></div>
+We used the following Effort vs Benefit matrix to help us determine what to focus on in the short term.
+<div><img src="/img/works_parking/parking_featurepriority.svg"></div>
+
 ###### Plotting all features on a 2x2 matrix to help determine what to focus on. ######
 
 # Key Product Decisions #
+<ol>
+  <li>No user accounts <br> User accounts are tedious to build and has very little value add in the case of the parking app. We realise early on that the product can be designed without user accounts. Sure, we lose the ability to track parking history on different phones, or possibly the potential of e-wallets, but for an app that we hope can have high adoption, we need to reduce the barrier of entry.
+</li>
+<br>
+<li> Block-Refund Charging Mechanism <br> We wanted to implement a charging mechanism that is fair to the user. User should only pay for what they park, unlike the parking coupons that charge users in 30 minutes block. There are 2 ways that this can be done. As illustrated below, the block-refund design gives user the benefit of per-minute charging without incurring administrative overheads due to infinite charging that might happen in the start-stop design.
+</li>
+</ol>
 
-# Beta Trial #
-
-# UI Improvements #
+<div><img src="/img/works_parking/parking_blockcharging.svg"></div>
+###### The block-refund design is a better design. ######
 
 # Full Launch #
 Parking.sg is launched in Oct 2017. It is available on iOS and Android.
 
 # Reception #
-By June 2018, Parking.sg is the top government app with 700k iOS and Android App downloads and 8 million parking sessions and has an average ratings of 4.1 stars on Apple App Store and Google Play Store.
+By November 2018, Parking.sg is the top government app with 900k iOS and Android App downloads and **8 million parking sessions** and has an average ratings of **4.1 stars** on Apple App Store and Google Play Store. About **70% of the entire car population in Singapore** have parked using the Parking.sg app.
