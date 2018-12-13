@@ -11,10 +11,11 @@ owner: GovTech Singapore
 platform: iOS, Android
 year: 2016 - Present
 role: Lead Designer. User Research, Prototyping, Wireframing, User Testing, User Interface Design, Trial Set Up, Product Strategy, Product Management
+published: true
 ---
 
 # The Problem #
-  Since the 1980s, motorists in Singapore who park their vehicles in public car parks, have to tear pre-paid paper coupons to pay for parking. Many of the car parks have since implemented the electronic gantries (aka Electronic Parking System EPS). However, there are about a thousand car parks in Singapore that still require motorists to use parking coupons instead. These could be the roadside parking lots or the smaller carparks that does not warrant the high cost of installing and long term maintenance of the EPS. Motorists need to stock up coupons and tear many pieces if they were to park for a long period of time. If they want to extend parking, they will have to run back to their vehicle to tear more coupons.
+  Motorists in Singapore who park their vehicles in public car parks, have to tear pre-paid paper coupons to pay for parking. These carparks are usually roadside parking lots or the smaller carparks that does not warrant the high cost of installing and long term maintenance of the Eletronic Parking System. Motorists need to tear many pieces if they were to park for a long period of time. If they want to extend parking, they will have to run back to their vehicle to tear more coupons. It is an outdated and cumbersome solution.
 
   We wanted to develop a digital parking system that can replace the paper coupons, to give citizens the convenience of being able to pay for parking easily and extend parking remotely.
 
@@ -23,9 +24,6 @@ role: Lead Designer. User Research, Prototyping, Wireframing, User Testing, User
 
 # The Solution #
   In October 2017, we released Parking.sg, a mobile app that allows motorists in Singapore pay for parking charges using their mobile phones at all coupon-based public car parks. The app has these 3 main features.
-  1. Automatically calculate parking fees.
-  2. Extend parking session
-  3. Get refunds when you end the session early
 
   <div><img src="/img/works_parking/parking_features.png"></div>
 
@@ -43,7 +41,7 @@ Lead Designer. User Research, Prototyping, Wireframing, User Flows, User Testing
 # Interviewing the users #
 I prepared the following interview questions and interviewed several people who drive and uses the parking coupons. These are what they say, think and do.
 
-<div class="main-carousel" style="height: 560px;" data-flickity='{ "freeScroll": true }'>
+<div class="main-carousel" data-flickity='{ "freeScroll": true, "lazyLoad": true }'>
   <div class="carousel-cell"><img src="/img/works_parking/parking_userinterviewguide.png"></div>
   <div class="carousel-cell"><img src="/img/works_parking/parking_user1.png"></div>
   <div class="carousel-cell"><img src="/img/works_parking/parking_user2.png"></div>
@@ -59,7 +57,7 @@ With that information, I plotted this customer journey map to visualise the high
 # What are the other cities doing about this problem? #
 Many cities have tried to address the parking problem. Some of these are initiated by the local governments, while others are solutions from the carpark owners. I collected the screenshots and compared the features that these solutions have.
 
-<div class="main-carousel" style="height: 560px;" data-flickity='{ "freeScroll": true, "lazyLoad": true }'>
+<div class="main-carousel" data-flickity='{ "freeScroll": true, "lazyLoad": true }'>
   <div class="carousel-cell"><img data-flickity-lazyload="/img/works_parking/parking_competitiveanalysis.png"></div>
   <div class="carousel-cell"><img data-flickity-lazyload="/img/works_parking/parking_us_parker.png"></div>
   <div class="carousel-cell"><img data-flickity-lazyload="/img/works_parking/parking_uk_paybyphone.png"></div>
@@ -78,9 +76,8 @@ With all the discovery and learning from above, I made a prototype in Sketch and
 Based on the design, we made a working prototype so that we can work with URA and HDB (the agencies that manages car parks) to do on the ground testing with actual users at a real carpark. For the trial, we invited public servants to try the parking app at designated car parks. We also trained enforcers to use the enforcer app so that they can enforce the cars that paid for parking via the parking app.
 
 # Identifying Feature Priorities #
-We used the following Effort vs Benefit matrix to help us determine what to focus on in the short term.
+We used the following Effort vs Benefit matrix to help us determine what to focus on in the next few months leading to the first major trial with users.
 <div><img src="/img/works_parking/parking_featurepriority.svg"></div>
-
 ###### Plotting all features on a 2x2 matrix to help determine what to focus on. ######
 
 # Key Product Decisions #
@@ -95,8 +92,20 @@ We used the following Effort vs Benefit matrix to help us determine what to focu
 <div><img src="/img/works_parking/parking_blockcharging.svg"></div>
 ###### The block-refund design is a better design. ######
 
+# User Interface Design #
+
+There are a few key concepts for the interface design.
+
+1. Parking is the main action. This makes side menu a good solution for navigation vs the bottom tabs menu. User is only presented with the screen to start parking. Everything else is hidden in the side menu.
+3. Main call-to-action button is always at the bottom in the brand color. This creates consistency and users do not need to think too much what they are required of. If there is a secondary action, it will be displayed as a link so as not to distract the user.
+2. The triangular Duration-Time-Cost Structure as an important visual model about how the parking rates are charged.
+2. All transient screens are modals. This subconsciously reminds the user that they have yet to complete their current action. This is especially important as our screens looks simple and similar due to the triangular Duration-Time-Cost Structure and a call-to-action button that repeats itself across screen which encourages change-blindness.
+
+<div><img src="/img/works_parking/parking_flow.png"></div>
+###### Parking Screen Flow ######
+
 # Full Launch #
-Parking.sg is launched in Oct 2017. It is available on iOS and Android.
+We conducted multiple user trials from May to September with few thousand users and worked out any issues the app and operations have. Parking.sg is launched in Oct 2017. It is available on iOS and Android.
 
 # Reception #
 By November 2018, Parking.sg is the top government app with 900k iOS and Android App downloads and **8 million parking sessions** and has an average ratings of **4.1 stars** on Apple App Store and Google Play Store. About **70% of the entire car population in Singapore** have parked using the Parking.sg app.

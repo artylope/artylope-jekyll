@@ -352,15 +352,25 @@ button {
     padding-right: 20px;
     margin-bottom: 1.2em;
     text-align: left; }
+  .content ol {
+    counter-reset: foo;
+    display: table; }
+  .content li {
+    list-style: none;
+    counter-increment: foo;
+    display: table-row; }
+  .content li::before {
+    content: counter(foo) ".";
+    display: table-cell;
+    text-align: right;
+    padding-right: .3em; }
 
 .main-carousel {
   margin-top: 3em;
-  margin-bottom: 5em;
-  /* margin: 0 auto; */ }
+  margin-bottom: 5em; }
 
 .carousel-cell {
   width: 66%;
-  max-height: 565px;
   margin-right: 10px;
   border-radius: 5px;
   /* counter-increment: gallery-cell; */ }
@@ -379,6 +389,8 @@ button {
 .flickity-page-dots {
   position: relative !important;
   text-align: center !important; }
+  .flickity-page-dots li:before {
+    content: none !important; }
 
 .flickity-prev-next-button {
   height: 62px; }

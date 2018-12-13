@@ -17,6 +17,7 @@ layout: default
     <div class="container">
       <div class="row center">
         {% for work in site.works %}
+          {% if work.published == true %}
         <div class="col-xs-12
                 col-sm-12
                 col-md-6
@@ -39,6 +40,7 @@ layout: default
             </div>
           </div>
         </div>
+          {% endif %}
         {% endfor %}
       </div>
     </div>

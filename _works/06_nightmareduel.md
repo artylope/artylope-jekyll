@@ -11,7 +11,7 @@ owner: Singapore-MIT Gambit Game Lab
 platform: iPad
 year: 2012
 role: Game Artist. Did Game Art, User Interface Design, Visual Effects, Environment Design, Website Design and Development, Video Trailer Production and Editing
-
+published: true
 ---
 
 # Overview #

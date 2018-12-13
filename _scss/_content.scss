@@ -107,4 +107,25 @@
     margin-bottom: 1.2em;
     text-align: left;
   }
+
+
+  ol {
+      counter-reset: foo;
+      display: table;
+  }
+
+  li {
+      list-style: none;
+      counter-increment: foo;
+      display: table-row;
+  }
+
+  li::before {
+      content: counter(foo) ".";
+      // font-weight: bold;
+      display: table-cell;
+      text-align: right;
+      padding-right: .3em;
+  }
+
 }

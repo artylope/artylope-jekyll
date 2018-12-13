@@ -1,12 +1,10 @@
 .main-carousel {
   margin-top: 3em;
-margin-bottom: 5em;
-  /* margin: 0 auto; */
+  margin-bottom: 5em;
 }
 
 .carousel-cell {
   width: 66%;
-  max-height: 565px;;
   margin-right: 10px;
   border-radius: 5px;
   /* counter-increment: gallery-cell; */
@@ -28,8 +26,26 @@ margin-bottom: 5em;
 .flickity-page-dots{
   position: relative !important;
   text-align: center !important;
+  li{
+    &:before{
+      content: none !important;
+    }
+  }
 }
 
 .flickity-prev-next-button{
   height: 62px;
 }
+//
+// @media only screen and (min-width: 48em){
+//   .main-carousel {
+//     margin-bottom: 5em;
+//     /* margin: 0 auto; */
+//   }
+// }
+// @media only screen and (min-width: 75em){
+//   .main-carousel {
+//     margin-bottom: 15em;
+//     /* margin: 0 auto; */
+//   }
+// }
