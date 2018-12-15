@@ -15,7 +15,7 @@ published: true
 ---
 
 # The Problem #
-  Motorists in Singapore who park their vehicles in public car parks, have to tear pre-paid paper coupons to pay for parking. These carparks are usually roadside parking lots or the smaller carparks that does not warrant the high cost of installing and long term maintenance of the Eletronic Parking System. Motorists need to tear many pieces if they were to park for a long period of time. If they want to extend parking, they will have to run back to their vehicle to tear more coupons. It is an outdated and cumbersome solution.
+  Motorists in Singapore have to tear pre-paid paper coupons to pay for parking in some public car parks. Motorists need to tear many pieces if they were to park for a long period of time. If they want to extend parking, they will have to run back to their vehicle to tear more coupons. It is an outdated and cumbersome solution.
 
   We wanted to develop a digital parking system that can replace the paper coupons, to give citizens the convenience of being able to pay for parking easily and extend parking remotely.
 
@@ -23,7 +23,7 @@ published: true
 ###### what staying over at a friend's place will make of your car's dashboard ######
 
 # The Solution #
-  In October 2017, we released Parking.sg, a mobile app that allows motorists in Singapore pay for parking charges using their mobile phones at all coupon-based public car parks. The app has these 3 main features.
+  In October 2017, we released Parking.sg, a mobile app that allows motorists in Singapore pay for parking charges at all coupon-based public car parks. The app has these 3 main features.
 
   <div><img src="/img/works_parking/parking_features.png"></div>
 
@@ -33,20 +33,20 @@ published: true
 Lead Designer. User Research, Prototyping, Wireframing, User Flows, User Testing, User Interface Design, Trial Set Up, Product Strategy, Product Management
 
 # The Team #
-8 people in total, 3-4 at any one time (i.e. 1 Product Manager, 2 Developers and 1 Designer) We also worked with public servants in car park operations at the various government agencies. I did most of the design work. Sarah Salim, a Visual Designer, polished the UI before the final launch.
+8 people in total, 3-4 at any one time (i.e. 1 Product Manager, 2 Developers and 1 Designer) We also worked with public servants in car park operations at the various government agencies. I did most of the design work. Sarah Salim, a fellow designer, polished the visual design.
 
 # Development Timeline
 10 months from prototype to full public launch in Oct 2017. Ongoing iteration and development there after.
 
 # Interviewing the users #
-I prepared the following interview questions and interviewed several people who drive and uses the parking coupons. These are what they say, think and do.
+During the discovery phase, I prepared the following interview questions and interviewed several people who drive and uses the parking coupons. These are what they say, think and do.
 
 <div class="main-carousel" data-flickity='{ "freeScroll": true, "lazyLoad": true }'>
-  <div class="carousel-cell"><img src="/img/works_parking/parking_userinterviewguide.png"></div>
-  <div class="carousel-cell"><img src="/img/works_parking/parking_user1.png"></div>
-  <div class="carousel-cell"><img src="/img/works_parking/parking_user2.png"></div>
-  <div class="carousel-cell"><img src="/img/works_parking/parking_user3.png"></div>
-  <div class="carousel-cell"><img src="/img/works_parking/parking_user4.png"></div>
+  <div class="carousel-cell"><img data-flickity-lazyload="/img/works_parking/parking_userinterviewguide.png"></div>
+  <div class="carousel-cell"><img data-flickity-lazyload="/img/works_parking/parking_user1.png"></div>
+  <div class="carousel-cell"><img data-flickity-lazyload="/img/works_parking/parking_user2.png"></div>
+  <div class="carousel-cell"><img data-flickity-lazyload="/img/works_parking/parking_user3.png"></div>
+  <div class="carousel-cell"><img data-flickity-lazyload="/img/works_parking/parking_user4.png"></div>
 </div>
 
 
@@ -64,19 +64,19 @@ Many cities have tried to address the parking problem. Some of these are initiat
 </div>
 
 # Enthography Study with Enforcement Officer #
-To help us understand the enforcement process and we can integrate with the enforcement systems, we walked the ground with the enforcement officer. She shows us the electronic handheld device (EHT) that she uses to check for season parking information. She also uses it to issue summon.
+To help us understand how we can design the system to help optimise enforcement as well, we walked the ground with the enforcement officer. She shows us the electronic handheld device (EHT) that she uses to check for season parking information. She also uses it to issue summon.
 <div><img src="/img/works_parking/parking_ethnographystudy.png"></div>
 ###### The development team walked the grounds with the enforcement officer. ######
 
 # Prototype and Guerilla Testing #
-With all the discovery and learning from above, I made a prototype in Sketch and InVision and brought it out for some guerrilla testing based on designed tasks scenarios. The following mock up is a few iterations after these testings.
+With all the discovery and learnings from above, I made a prototype in Sketch and InVision and brought it out for some users testing based on designed tasks scenarios. The following mock up is a few iterations after these testings.
 <div><img style="max-width:360px;" src="/img/works_parking/parking_mockup.gif"></div>
 ###### Prototype done in Sketch and InVision ######
 
-Based on the design, we made a working prototype so that we can work with URA and HDB (the agencies that manages car parks) to do on the ground testing with actual users at a real carpark. For the trial, we invited public servants to try the parking app at designated car parks. We also trained enforcers to use the enforcer app so that they can enforce the cars that paid for parking via the parking app.
+Based on the design, we made a working prototype with a simple backend so that we can work with URA and HDB (the agencies that manages car parks) to do real parking sessions with actual users at a real carparks. We also trained enforcers to use the enforcer app so that they can enforce the cars that paid for parking via the parking app.
 
 # Identifying Feature Priorities #
-We used the following Effort vs Benefit matrix to help us determine what to focus on in the next few months leading to the first major trial with users.
+During developmemt, we used the following Effort vs Benefit matrix to help us determine what to focus on in the next few months leading to the first major trial with users.
 <div><img src="/img/works_parking/parking_featurepriority.svg"></div>
 ###### Plotting all features on a 2x2 matrix to help determine what to focus on. ######
 
@@ -85,26 +85,25 @@ We used the following Effort vs Benefit matrix to help us determine what to focu
   <li>No user accounts <br> User accounts are tedious to build and has very little value add in the case of the parking app. We realise early on that the product can be designed without user accounts. Sure, we lose the ability to track parking history on different phones, or possibly the potential of e-wallets, but for an app that we hope can have high adoption, we need to reduce the barrier of entry.
 </li>
 <br>
-<li> Block-Refund Charging Mechanism <br> We wanted to implement a charging mechanism that is fair to the user. User should only pay for what they park, unlike the parking coupons that charge users in 30 minutes block. There are 2 ways that this can be done. As illustrated below, the block-refund design gives user the benefit of per-minute charging without incurring administrative overheads due to infinite charging that might happen in the start-stop design.
+<li> Block-Refund Charging Mechanism <br>
+<div><img src="/img/works_parking/parking_blockcharging.svg"></div>
+We wanted to implement a charging mechanism that is fair to the user. User should only pay for what they park, unlike the parking coupons that charge users in 30 minutes block. There are 2 ways that this can be done. As illustrated below, the block-refund design gives user the benefit of per-minute charging without incurring administrative overheads due to infinite charging that might happen in the start-stop design.
 </li>
 </ol>
-
-<div><img src="/img/works_parking/parking_blockcharging.svg"></div>
-###### The block-refund design is a better design. ######
 
 # User Interface Design #
 
 There are a few key concepts for the interface design.
 
-1. Parking is the main action. This makes side menu a good solution for navigation vs the bottom tabs menu. User is only presented with the screen to start parking. Everything else is hidden in the side menu.
-3. Main call-to-action button is always at the bottom in the brand color. This creates consistency and users do not need to think too much what they are required of. If there is a secondary action, it will be displayed as a link so as not to distract the user.
-2. The triangular Duration-Time-Cost Structure as an important visual model about how the parking rates are charged.
-2. All transient screens are modals. This subconsciously reminds the user that they have yet to complete their current action. This is especially important as our screens looks simple and similar due to the triangular Duration-Time-Cost Structure and a call-to-action button that repeats itself across screen which encourages change-blindness.
+1. Parking is the only main action. <br> This makes side menu a good solution for navigation vs the bottom tabs menu. User is only presented with the screen to start parking. Everything else is hidden in the side menu.
+2. Main call-to-action button is always at the bottom.<br> This creates consistency and users do not need to think too much what they are required of. If there is a secondary action, it will be displayed as a link so as not to distract the user.
+3. The triangular Duration-Time-Cost Structure <br> This is an important visual model about how the parking rates are charged that is repeated in many screens.
+4. All transient screens are modals screens. <br>  This subconsciously reminds the user that they have yet to complete their current action. This is especially important as our screens looks simple and similar due to the triangular Duration-Time-Cost Structure and a call-to-action button that repeats itself across screen which encourages change-blindness.
 
-<div><img src="/img/works_parking/parking_flow.png"></div>
+<div><img src="/img/works_parking/parking_flow.svg"></div>
 ###### Parking Screen Flow ######
 
-# Full Launch #
+# Official Launch #
 We conducted multiple user trials from May to September with few thousand users and worked out any issues the app and operations have. Parking.sg is launched in Oct 2017. It is available on iOS and Android.
 
 # Reception #
