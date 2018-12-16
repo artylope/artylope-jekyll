@@ -51,28 +51,30 @@ Many people worked on Beeline over the course of 3 years. But at any one time, t
 In the beginning, we do not know if commuters will be willing to pay more for an express bus ride. And we had no idea how we could reach them.
 With the anonymised EZLink data, we could identify potential routes, but we could not identify the potential customers. So we set up a landing site to collect suggestions and public feedback about their commuting preferences.
 
-Getting routes suggestions and forming a viable route.
 # Running the first bus #
-# Making drivers accountable #
-Being able to track the bus on the day of the ride is
-As some of the drivers only understood Chinese, we also included a Chinese mode for them.
-Of course there was a lot of resistance from the drivers initially. The bus companies had to find ways to incentivise good drivers and penalise bad drivers. They didn't have a way to tell definitely, now they do.
+In the next 3 months, we quickly developed a commuter app that can allow users to booked tickets and a driver app that could ping GPS location.
+We managed to convince a bus operator, Aedge Holdings, to prototype with us. We managed to run our first buses for the public in August 2015.
+<div><img src="/img/works_beeline/beeline_testingsessions.png"></div>
+###### This is us doing testing on the roads with the drivers ######
 
 # Empowering the Ops Manager #
 Traditionally, the ops manager of managing the fleet of buses have no way to tell if bus drivers pick up their passengers on time. In the worst cases, they are the last to find out when the commuters call the bus company to complain about the missing bus. Fortunately, Beeline drivers send location pings via the Beeline Driver App to their passengers, we can display this information to the ops manager as well. In this case, other than showing if the buses are operating as expected, ops managers can also alert the ops manager when the driver is not sending pings, so that the ops manager can send messages to commuters about bus cancellation in the worst scenario.
 
-Overview to see if all bus drivers are pinging locations and will be in time for the passengers. Green punctual, read late.
-Map to display location of buses
-Passenger list for that daily
-Cancel trip button will trigger a sms and notice to the commuter app.
+# Making drivers accountable #
+Being able to track the bus on the day of the ride is an important selling point.
+As some of the drivers only understood Chinese, we also included a Chinese mode for them.
+Of course there was a lot of resistance from the drivers initially. The bus companies had to find ways to incentivise good drivers and penalise bad drivers. They didn't have a way to tell definitely, now they do.
 
+# Reinventing Beeline #
+In Dec 2015, 5 months after running Beeline, we couldn't commuters people to take the few routes we run. We also only had 2 bus operators and they were not keen to run more routes. They would rather get chartered businesses from corporate clients than take risks in new technology and uncommitted commuters. We had the chicken and egg problem.
 
-# Chicken and Egg Problem #
-# On-boarding the bus operators #
-  - Running a workshop, Lite routes
-Suggestions does not mean commitment, introducing the crowdstart mechanism.
-# Ops and Admin Tools #
-# Beeline Commuter App Screen Flow #
+<div><img src="/img/works_beeline/beeline_innovationlab.png"></div>
+###### Innovation Lab ######
+
+I conducted a full day innovation workshop to get the team to evaluate our learnings.
+2 major ideas came out of this innovation lab and the subsequent discussions and prototyping.
+1. What if we could get people to commit money to activate bus routes instead of just submitting suggestions - Beeline Crowdstart
+2. What if we could let corporates and bus operators run buses on Beeline and get them a taste of what Beeline can offer them in terms of tracking ability and routing - Beeline Lite Routes.
 
 # The Future of Mobility #
 <div><img src="/img/works_beeline/beeline_futureofmobility.svg"></div>
