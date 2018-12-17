@@ -52,13 +52,13 @@ In the beginning, we do not know if commuters will be willing to pay more for an
 With the anonymised EZLink data, we could identify potential routes, but we could not identify the potential customers. So we set up a landing site in April 2015 to collect suggestions and public feedback about their commuting preferences. People were interested and we collected many suggestions.
 
 # Running the first bus #
-In the next 4 months, we quickly developed a commuter app that can allow users to booked tickets and a driver app that could ping GPS location.
+In the next 4 months, we quickly developed a commuter app that can allow users to book tickets and a driver app that could ping GPS location.
 We managed to convince a bus operator, Aedge Holdings, to prototype with us. We ran our first buses for the public in August 2015.
 <div><img src="/img/works_beeline/beeline_testingsessions.png"></div>
 ###### This is us doing testing on the roads with the drivers ######
 
 # Empowering Operations Manager #
-Traditionally, the ops manager of managing the fleet of buses have no way to tell if bus drivers pick up their passengers on time unless someone complains. The ops manager could on the road when the buses are running during peak hour. Therefore, he needs something that can work on his phone that can give him an overview of his fleet and let him respond during emergencies. After understanding what information can help him, we developed a web app for them to monitor their fleet.
+Traditionally, the ops manager managing the fleet of buses have no way to tell if the bus drivers pick up their passengers on time unless someone complains. The ops manager could on the road when the buses are running during peak hour. Therefore, he needs something that can work on his phone that can give him an overview of his fleet and let him respond during emergencies. After understanding what information can help him, we developed a web app for them to monitor their fleet.
 <div><img src="/img/works_beeline/beeline_opstool.png"></div>
 
 # Reinventing Beeline #

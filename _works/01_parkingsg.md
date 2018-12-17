@@ -109,4 +109,4 @@ There are a few key concepts for the interface design.
 We conducted multiple user trials from May to September with few thousand users and worked out any issues the app and operations have. Parking.sg is launched in Oct 2017. It is available on iOS and Android.
 
 # Reception #
-By November 2018, Parking.sg is the top government app with 900k iOS and Android App downloads and **8 million parking sessions** and has an average ratings of **4.1 stars** on Apple App Store and Google Play Store. About **70% of the entire car population in Singapore** have parked using the Parking.sg app.
+By November 2018, Parking.sg is the top government app with **900k iOS and Android App downloads** and **8 million parking sessions** and has an average ratings of **4.1 stars** on Apple App Store and Google Play Store. About **70% of the entire car population in Singapore** have parked using the Parking.sg app.
