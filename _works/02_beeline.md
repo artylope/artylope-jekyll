@@ -22,7 +22,7 @@ published: true
 ###### Commuters staying in the red zones take the most time to travel during the peak hour. ######
 
 # The Opportunity #
-What if we could run on-demand express buses? Something that is cheaper than taxi, faster than the public bus. Coupled with optimised routing using data analytics and booking via smart phones, will it improve commuter experience?
+What if we could run on-demand express buses? Something that is cheaper than taxi, faster than the public bus. Coupled with optimised routing using data analytics and booking via smart phones, will it be possible? Will this improve commuter experience?
   <div><img src="/img/works_beeline/beeline_sharedtransit.svg"></div>
 
 # The Solution #
@@ -35,7 +35,7 @@ Beeline Suite includes:
 
 - Commuter App for ticket booking, tracking buses and making route suggestions
 - Bus Driver App for reporting location
-- Admin Portal for operations, finance and reporting purpose
+- Admin Portal for booking admin, operations, finance and reporting purpose
 - Monitoring tool for real time monitoring of bus fleet
 - Analytics Tool for bus planning based on suggestions
 
@@ -57,9 +57,9 @@ We managed to convince a bus operator, Aedge Holdings, to prototype with us. We 
 <div><img src="/img/works_beeline/beeline_testingsessions.png"></div>
 ###### This is us doing testing on the roads with the drivers ######
 
-# Empowering the Ops Manager #
-In the first few months of launch, we were marred by operations issues. Issues that no amount of prototyping and testing could have helped.
-Traditionally, the ops manager of managing the fleet of buses have no way to tell if bus drivers pick up their passengers on time. In the worst cases, they are the last to find out when the commuters call the bus company to complain about the missing bus. We realised that we had to help the operation managers. We developed an app to display if the buses are operating as expected. And if the driver is not sending pings, the ops manager can send messages to commuters about bus cancellation in the worst case scenario.
+# Empowering Operations Manager #
+Traditionally, the ops manager of managing the fleet of buses have no way to tell if bus drivers pick up their passengers on time unless someone complains. The ops manager could on the road when the buses are running during peak hour. Therefore, he needs something that can work on his phone that can give him an overview of his fleet and let him respond during emergencies. After understanding what information can help him, we developed a web app for them to monitor their fleet.
+<div><img src="/img/works_beeline/beeline_opstool.png"></div>
 
 # Reinventing Beeline #
 In Dec 2015, 5 months after running Beeline, we couldn't fill our buses. We also only had 2 bus operators and they were not keen to run more routes. They would rather get chartered businesses from corporate clients than take risks in new technology and uncommitted commuters. We had the chicken and egg problem.

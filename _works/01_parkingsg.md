@@ -39,7 +39,7 @@ Lead Designer. User Research, Prototyping, Wireframing, User Flows, User Testing
 10 months from prototype to full public launch in Oct 2017. Ongoing iteration and development there after.
 
 # Interviewing the users #
-During the discovery phase, I prepared the following interview questions and interviewed several people who drive and uses the parking coupons. These are what they say, think and do.
+In late 2016, during the discovery phase, I prepared the following interview questions and interviewed several people who drive and uses the parking coupons. These are what they say, think and do.
 
 <div class="main-carousel" data-flickity='{ "freeScroll": true, "lazyLoad": true }'>
   <div class="carousel-cell"><img data-flickity-lazyload="/img/works_parking/parking_userinterviewguide.png"></div>
@@ -51,7 +51,7 @@ During the discovery phase, I prepared the following interview questions and int
 
 
 # Mapping out the user journey #
-With that information, I plotted this customer journey map to visualise the highlights and pain points of a motorist's parking journey. Looking for parking and paying for parking create the most hassle for the user.
+With that information, I plotted this customer journey map to visualise the highlights and pain points of a motorist's parking journey. Looking for parking and paying for parking create the most hassle for the user. And that is what we want to solve.
 <div><img src="/img/works_parking/parking_customerjourney.png"></div>
 
 # What are the other cities doing about this problem? #
@@ -63,8 +63,8 @@ Many cities have tried to address the parking problem. Some of these are initiat
   <div class="carousel-cell"><img data-flickity-lazyload="/img/works_parking/parking_uk_paybyphone.png"></div>
 </div>
 
-# Enthography Study with Enforcement Officer #
-To help us understand how we can design the system to help optimise enforcement as well, we walked the ground with the enforcement officer. She shows us the electronic handheld device (EHT) that she uses to check for season parking information. She also uses it to issue summon.
+# Ethnography Study with Enforcement Officer #
+To help us understand how we can design the system to integrate with the existing enforcement process, we walked the ground with the enforcement officer. She shows us the electronic handheld device (EHT) that she uses to check for season parking information. She also uses it to issue summon. Since she already has this device, we need to find a way to send the real-time digital parking data to her.
 <div><img src="/img/works_parking/parking_ethnographystudy.png"></div>
 ###### The development team walked the grounds with the enforcement officer. ######
 
@@ -73,7 +73,9 @@ With all the discovery and learnings from above, I made a prototype in Sketch an
 <div><img style="max-width:360px;" src="/img/works_parking/parking_mockup.gif"></div>
 ###### Prototype done in Sketch and InVision ######
 
-Based on the design, we made a working prototype with a simple backend so that we can work with URA and HDB (the agencies that manages car parks) to do real parking sessions with actual users at a real carparks. We also trained enforcers to use the enforcer app so that they can enforce the cars that paid for parking via the parking app.
+Based on the design, we made a working prototype with a simple backend so that we can work with URA and HDB (the agencies that manages car parks) to do real parking sessions with actual users at a real carparks. We also made an enforcer app and trained enforcers to use it so that they can enforce the cars that are paid digitally.
+<div><img style="max-width:360px;" src="/img/works_parking/parking_enforcerapp.png"></div>
+###### Enforcer App will be updated with the digitally parked car in real time. ######
 
 # Identifying Feature Priorities #
 During developmemt, we used the following Effort vs Benefit matrix to help us determine what to focus on in the next few months leading to the first major trial with users.
