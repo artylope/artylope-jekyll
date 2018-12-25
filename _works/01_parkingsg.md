@@ -15,7 +15,7 @@ published: true
 ---
 
 # The Problem #
-  Motorists in Singapore have to tear pre-paid paper coupons to pay for parking in some public car parks. Motorists need to tear many pieces if they were to park for a long period of time. If they want to extend parking, they will have to run back to their vehicle to tear more coupons. It is an outdated and cumbersome solution.
+  Motorists in Singapore have to tear pre-paid paper coupons to pay for parking in some public car parks. They will need to tear many pieces if they were to park for a long period of time. If they want to extend parking, they will have to run back to their vehicle to tear more coupons. It is an outdated and cumbersome solution.
 
   We wanted to develop a digital parking system that can replace the paper coupons, to give citizens the convenience of being able to pay for parking easily and extend parking remotely.
 
