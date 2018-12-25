@@ -30,7 +30,7 @@ We developed a platform called Beeline to match commuters to private bus operato
 
 Beeline Suite includes:
 
-<div><img src="/img/works_beeline/beeline_suite.svg"></div>
+<div><img src="/img/works_beeline/beeline_suite.png"></div>
 ###### Beeline Suite of Tools ######
 
 - Commuter App for ticket booking, tracking buses and making route suggestions
