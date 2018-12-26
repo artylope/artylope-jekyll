@@ -5,18 +5,7 @@ layout: blog
 <section id="blog">
       {% include sidebar.html %}
       <div id="main-content">
-        <!-- <div id="search-results-container">
-          <div class="keywords">Displaying 2 Posts with the keyword "<strong>search</strong>"</div>
-        </div> -->
-        <div id="search-results">
-          <h1>Search Results</h1>
-          <p class="search-results-count">
-            Displaying <span id="search-results-count"></span> Posts
-          </p>
-          <ul id="search-results-list">
-          </ul>
-        </div>
-        <div id="all-posts">
+          <div id="archive">
           <h2>Archive of posts from {{ page.date | date: "%B %Y" }}</h2>
           <ul class="posts">
           {% for post in page.posts %}
@@ -30,5 +19,3 @@ layout: blog
         </div>
       </div>
     </section>
-
-    {% include searchscript.html %}

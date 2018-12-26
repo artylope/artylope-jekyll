@@ -1,0 +1,11 @@
+#archive{
+  h2{
+    margin-bottom: 1em;
+  }
+  li {
+      list-style: none;
+      .post-date{
+        margin-right: .5em;
+      }
+  }
+}
