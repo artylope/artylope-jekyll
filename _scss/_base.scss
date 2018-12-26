@@ -36,6 +36,7 @@ img{
 
 p, span{
   text-align: left;
+  margin-bottom: 2em;
 }
 
 h1{
@@ -69,8 +70,16 @@ h6{
 ul {
   list-style-type: disc;
   list-style-position: inside;
+  margin-bottom: 1em;
 }
 ol {
   list-style-type: decimal;
   list-style-position: inside;
+  margin-bottom: 1em;
+}
+
+blockquote{
+  border-left: 6px solid $brand-primary;
+  padding-left: 20px;
+  margin-left: 1em;
 }
