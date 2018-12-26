@@ -1,8 +1,7 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=PT+Serif:400,700");
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700");
 @import url("https://fonts.googleapis.com/css?family=Muli:400,700");
-@import url("https://fonts.googleapis.com/css?family=Lora:400,700");
+@import url("https://fonts.googleapis.com/css?family=Fira+Mono");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -74,7 +73,7 @@ img {
 
 p, span {
   text-align: left;
-  margin-bottom: 2em; }
+  margin-bottom: 1em; }
 
 h1 {
   font-size: 2.4em;
@@ -112,6 +111,10 @@ blockquote {
   border-left: 6px solid #484DA9;
   padding-left: 20px;
   margin-left: 1em; }
+
+pre, code {
+  font-family: 'Fira Mono', monospace;
+  font-size: 14px; }
 
 button {
   background-color: #484DA9;

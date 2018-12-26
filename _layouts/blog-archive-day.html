@@ -8,7 +8,6 @@ layout: blog
       <div id="main-content">
         <div id="archive">
           <h2>Archive of posts from {{ page.date | date: "%B %-d, %Y" }}</h2>
-
           <ul class="posts">
           {% for post in page.posts %}
             <li>
@@ -17,7 +16,6 @@ layout: blog
             </li>
           {% endfor %}
           </ul>
-
         </div>
       </div>
     </section>

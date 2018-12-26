@@ -36,7 +36,7 @@ img{
 
 p, span{
   text-align: left;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 h1{
@@ -82,4 +82,9 @@ blockquote{
   border-left: 6px solid $brand-primary;
   padding-left: 20px;
   margin-left: 1em;
+}
+
+pre,code{
+  font-family: 'Fira Mono', monospace;
+  font-size: 14px;
 }
