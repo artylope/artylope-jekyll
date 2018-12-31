@@ -1,6 +1,6 @@
 ---
 layout: blog-post
-title: the ultimate button system for Sketch
+title: Ultimate Button System
 category: blog
 tags: tools
 author: Ang Yi Xin

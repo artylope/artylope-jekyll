@@ -1,6 +1,6 @@
 ---
 layout: blog-post
-title: Kill an activity in Terminal
+title: End an activity in Terminal
 category: blog
 tags: code
 author: Ang Yi Xin
