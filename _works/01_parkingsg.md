@@ -70,6 +70,9 @@ To help us understand how we can design the system to integrate with the existin
 
 # Prototype and Guerilla Testing #
 With all the discovery and learnings from above, I made a prototype in Sketch and InVision and brought it out for some users testing based on designed tasks scenarios. The following mock up is a few iterations after these testings.
+
+[Link to prototype](https://invis.io/8PPKTB66Z2H#/221533196_Home)
+
 <div><img style="max-width:360px;" src="/img/works_parking/parking_mockup.gif"></div>
 ###### Prototype done in Sketch and InVision ######
 
