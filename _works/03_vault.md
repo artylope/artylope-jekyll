@@ -8,7 +8,7 @@ thumbnail: "/img/works_vault/works_vault_thumbnail.png"
 locked: false
 hero: "/img/works_vault/works_vault_hero.png"
 owner: GovTech Singapore
-platform: iOS, Android
+platform: Web
 year: 2018 - Present
 role: Lead Designer. User Research, Prototyping, Wireframing, User Testing, User Interface Design
 published: true
@@ -26,7 +26,7 @@ published: true
   - Upload and download of data
   - Hashing of identifiable data
   - Data request and approval process
-  - Audit trial of the user to make sure user can be traced back if data is mishandled. 
+  - Audit trial of the user to make sure user can be traced back if data is mishandled.
 
 How did we arrive at this solution? I will cover the highlights of the journey from discovery. The product is currently going through development.
 

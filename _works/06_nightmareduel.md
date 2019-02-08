@@ -3,7 +3,7 @@ layout: single-work
 title: Nightmare Duel
 category: works
 permalink: "/works/nightmareduel.html"
-description: A frantic, fast-paced local multiplayer duel that will test both reflex and control!
+description: A frantic, fast-paced local multiplayer duel that will challenge your reflexes!
 thumbnail: "/img/works_nd/works_nightmareduel_thumbnail.png"
 locked: false
 hero: "/img/works_nd/works_nd_hero.png"
@@ -51,7 +51,7 @@ For the game environment and heads up display, it was important that the game fe
 <div><img style="width: 300px; height: auto;" src="/img/works_nd/lanehit.gif"></div> -->
 
 
-<!-- 
+<!--
 # Final Game Screenshots # -->
 
 # Game Facebook Landing Page #
