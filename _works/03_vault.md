@@ -39,21 +39,21 @@ Lead Designer. User Research, Prototyping, Wireframing, User Testing, User Inter
 # Data Requestor's Journey #
 The product manager and I interviewed 11 teams (roughly 40+ people) across the government to understand what is their job functions, their current workflow around data request, governance and sharing. This is how the requestor's journey looks like. There is a lot of frustration in the request phase.
 
-  <div><img src="/img/works_vault/vault_requestor_customerjourney.svg"></div>
+  <div><img class="shadow" src="/img/works_vault/vault_requestor_customerjourney.svg"></div>
 
 # Data Approver's Journey #
 And this is how the approver's journey looks like. They do not want to stall the process but they need to fully understand why and what the requestor wants before they can undertake the risk of releasing the data.
-  <div><img src="/img/works_vault/vault_approver_customerjourney.svg"></div>
+  <div><img class="shadow" src="/img/works_vault/vault_approver_customerjourney.svg"></div>
 
 # Personas #
 
 I came up with these 4 personas after distilling the interviewees' processes, job functions, concerns and goals.
 
 <div class="main-carousel" data-flickity='{ "freeScroll": true, "lazyLoad": true }'>
-  <div class="carousel-cell"><img data-flickity-lazyload="/img/works_vault/vault_persona_dataanalyst.svg"></div>
-  <div class="carousel-cell"><img data-flickity-lazyload="/img/works_vault/vault_persona_datamanager.svg"></div>
-  <div class="carousel-cell"><img data-flickity-lazyload="/img/works_vault/vault_persona_datascientist.svg"></div>
-  <div class="carousel-cell"><img data-flickity-lazyload="/img/works_vault/vault_persona_policyofficer.svg"></div>
+  <div class="carousel-cell"><img class="shadow" data-flickity-lazyload="/img/works_vault/vault_persona_dataanalyst.svg"></div>
+  <div class="carousel-cell"><img class="shadow" data-flickity-lazyload="/img/works_vault/vault_persona_datamanager.svg"></div>
+  <div class="carousel-cell"><img class="shadow" data-flickity-lazyload="/img/works_vault/vault_persona_datascientist.svg"></div>
+  <div class="carousel-cell"><img class="shadow" data-flickity-lazyload="/img/works_vault/vault_persona_policyofficer.svg"></div>
 </div>
 
 
@@ -65,8 +65,8 @@ I came up with these 4 personas after distilling the interviewees' processes, jo
 
 # Mock Up #
   Based on the research, I came up with a mock up of a data repository system that lets data requestors discover, request and download data and the data owners to upload, approve and track data usage. Below is the flow of the system.
-  <div><img src="/img/works_vault/vault_mockupflow.png"></div>
+  <div><img class="shadow" src="/img/works_vault/vault_mockupflow.png"></div>
 
 # Vault Design System #
 I developed the design system for Vault so that the UI components can look consistent across the screen.
-<div><img src="/img/works_vault/vault_designsystem.png"></div>
+<div><img class="shadow" src="/img/works_vault/vault_designsystem.png"></div>

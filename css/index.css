@@ -559,7 +559,7 @@ header {
           flex-basis: 6em; }
         #single-work .container .work-meta .work-meta-row .work-meta-value {
           flex-grow: 1; }
-    #single-work .container img {
+    #single-work .container .shadow {
       -webkit-box-shadow: 0px 2px 10px 0px rgba(110, 110, 110, 0.6);
       -moz-box-shadow: 0px 2px 10px 0px rgba(110, 110, 110, 0.6);
       box-shadow: 0px 2px 10px 0px rgba(110, 110, 110, 0.6); }
