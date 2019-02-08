@@ -26,7 +26,7 @@ published: true
   - Upload and download of data
   - Hashing of identifiable data
   - Data request and approval process
-  - Audit trial of the user
+  - Audit trial of the user to make sure user can be traced back if data is mishandled. 
 
 How did we arrive at this solution? I will cover the highlights of the journey from discovery. The product is currently going through development.
 
