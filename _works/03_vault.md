@@ -15,10 +15,10 @@ published: true
 ---
 
 # The Problem #
-  Imagine John is a policy officer that needs to make amendments to a manpower policy. He like to know how this amendment can affect the income, employment and retirement, he will need data from IRAS, CPF, MOM and so on. However, most government agencies have their own IT systems, databases and processes around sharing of data. This makes getting data from government agencies for analysis and policy review challenging.
+  Imagine John, a policy officer, who needs to make amendments to a policy. He would like to know how this policy amendment can affect the citizens of different income group, employment status, family background etc. He will need to gather these data from IRAS, CPF, MOM and so on. However, most government agencies have their own IT systems, databases and processes around sharing of data. This makes getting data from government agencies for analysis and policy review challenging.
 
   For this project, I am tasked to improve the data sharing process within the whole of government.
-  The data sharing experience largely involves 2 parties, the data requestor and the data owner/approver. The data requestor takes about 3 to 6 months to eventually get hold of the data from the data owner/approver. Our goal is to streamline this process so that it comes down to below 10 working days.
+  The data sharing experience largely involves 2 parties, the data requestor and the data owner/approver. The data requestor takes about 3 to 6 months to eventually get hold of the data from the data owner/approver. Our goal is to streamline this process so that it reduces to below 10 working days.
 
 # The Solution #
   A whole of government data repository that stores pre-processed, most frequently requested data sets with these main features.
@@ -36,8 +36,16 @@ Lead Designer. User Research, Prototyping, Wireframing, User Testing, User Inter
 # The Team #
 5 people (i.e. 1 Product Manager, 3 Developers and 1 Designer) We also worked with public servants and policy owners in the data department of the various agencies.
 
+# User Research #
+The product manager and I interviewed 11 teams (roughly 40+ people) across the government to understand what is their job functions, their current workflow around data request, governance and sharing. Here are some of the questions we prepared.
+
+  <div><img class="shadow" src="/img/works_vault/vault_interview.png"></div>
+
+After interviewing 40+ people, I mapped out the journey and came up with the following personas.
+
 # Data Requestor's Journey #
-The product manager and I interviewed 11 teams (roughly 40+ people) across the government to understand what is their job functions, their current workflow around data request, governance and sharing. This is how the requestor's journey looks like. There is a lot of frustration in the request phase.
+
+ This is how the requestor's journey looks like. There is a lot of frustration in the request phase.
 
   <div><img class="shadow" src="/img/works_vault/vault_requestor_customerjourney.svg"></div>
 
