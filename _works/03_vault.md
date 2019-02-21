@@ -39,8 +39,9 @@ Lead Designer. User Research, Prototyping, Wireframing, User Testing, User Inter
 # User Research #
 The product manager and I interviewed 11 teams (roughly 40+ people) across the government to understand what is their job functions, their current workflow around data request, governance and sharing. Here are some of the questions we prepared.
 
-  <div><img class="shadow" src="/img/works_vault/vault_interview.png"></div>
+  <div><img class="inner shadow" src="/img/works_vault/vault_interview.png"></div>
 
+<br>
 After interviewing 40+ people, I mapped out the journey and came up with the following personas.
 
 # Data Requestor's Journey #
