@@ -21,4 +21,15 @@ author: Ang Yi Xin
   git clone https://url-to-clone  - clone repo into my working directory
 
   git push origin master          - push from default remote repository to master
+
+
   ```
+  in this order
+```
+git diff
+git status
+git add
+git commit
+- then type in the message, once saved, then it will be committed
+git log - for verifying
+```
