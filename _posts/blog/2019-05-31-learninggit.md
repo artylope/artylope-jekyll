@@ -1,6 +1,6 @@
 ---
 layout: blog-post
-title: learning command line
+title: learning git
 category: blog
 tags: code
 author: Ang Yi Xin
