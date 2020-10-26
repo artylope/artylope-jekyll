@@ -20,11 +20,11 @@
         h1{
           font-size: 3em;
           text-transform: none;
-          margin-bottom: 0em;
+          margin-bottom: .5em;
         }
 
         .work-owner{
-          margin-top: .5em;
+          margin-top: 1em;
           margin-bottom: .5em;
         }
 
@@ -49,9 +49,10 @@
       }
 
       .shadow{
-        -webkit-box-shadow: 0px 2px 10px 0px rgba(110,110,110,0.6);
-        -moz-box-shadow: 0px 2px 10px 0px rgba(110,110,110,0.6);
-        box-shadow: 0px 2px 10px 0px rgba(110,110,110,0.6);
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 2px 10px 0px rgba(110,110,110,0.3);
+        -moz-box-shadow: 0px 2px 10px 0px rgba(110,110,110,0.3);
+        box-shadow: 0px 2px 10px 0px rgba(110,110,110,0.3);
       }
 
       #hero{

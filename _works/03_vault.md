@@ -72,10 +72,10 @@ I came up with these 4 personas after distilling the interviewees' processes, jo
 - By having a searchable repository, discovery of how and what data exists can already alleviate much of the frustration.
 - Another opportunity will be standardising the request and approval process so that each agency do not need to create and maintain their own.
 
-# Mock Up #
+# Early Mocks #
   Based on the research, I came up with a mock up of a data repository system that lets data requestors discover, request and download data and the data owners to upload, approve and track data usage. Below is the flow of the system.
   <div><img class="shadow" src="/img/works_vault/vault_mockupflow.png"></div>
 
-# Vault Design System #
-I developed the design system for Vault so that the UI components can look consistent across the screen.
+# Implementing Vault Design System #
+I developed the design system for Vault so that the UI components can look consistent across the screen. That includes setting up the common atomic components, deciding on the brand and system colors, as well as a responsive grid for the different layouts that Vault require. 
 <div><img class="shadow" src="/img/works_vault/vault_designsystem.png"></div>

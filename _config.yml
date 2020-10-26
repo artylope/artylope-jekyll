@@ -5,6 +5,9 @@ collections:
   works:
     output: true
     permalink: /works/:path/
+  codes:
+    output: true
+    permalink: /codes/:path/  
 
 plugins:
   - jekyll-archives
