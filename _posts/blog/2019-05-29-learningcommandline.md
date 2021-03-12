@@ -13,6 +13,7 @@ author: Ang Yi Xin
   cd ~                        - navigate to home directory
   ls                          - list content in directory
   ls -a                       - list content in directory, also hidden files
+  ls -la                      - list and sort
   ls ~/folder/subfolder       - list content with absolute path
   touch file.txt              - creates a file named file.txt
   open file.txt               - open the file named file.txt
@@ -22,6 +23,9 @@ author: Ang Yi Xin
   cp file.txt file2.txt       - copy the file.txt and name it file2.txt
   rm file.txt                 - remove aka delete file2.txt
   rmdir                       - remove directory
+  grep search file.txt        - search for files "grep <search term> <file name>" e.g. grep prestige movies.txt
+  cat file.txt                - read the file in terminal "cat <file name>"
+  
 
   ```
 
@@ -31,6 +35,8 @@ author: Ang Yi Xin
   cp -r folder_name new_folder_name  - copy folder and the content inside. if use without -r which means recursively, content will not be copied.
 
   rm -r folder_name                  - remove folder_name and content inside
+
+  rm -r *                            - remove all content in folder
 
   mv folder_name                     - does not need "-r" inside
 
@@ -46,3 +52,6 @@ author: Ang Yi Xin
 |ls -al     | list content in directory, also hidden files   |
 
 my tables not working well in markdown. need to fix this.
+
+useful links : https://www.codecademy.com/articles/command-line-commands
+and https://gist.github.com/alexpchin/01caa027b825d5f98871
